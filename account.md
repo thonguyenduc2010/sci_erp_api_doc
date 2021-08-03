@@ -18,6 +18,11 @@
  
    `phone=[string]` 
    -Số điện thoại của khách hàng
+    | Attribute  | Method  | Type  | Description  |   |
+    |---|---|---|---|---|
+    |   |   |   |   |   |
+    |   |   |   |   |   |
+    |   |   |   |   |   |
 
 * **Success Response:**
   

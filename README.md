@@ -6,6 +6,7 @@
   * Danh sách Khuyến mại
   * Danh sách nguồn
   * Danh sách Bảng giá
+  * Danh sách Chiến dịch
 ## 2. Lead
   * Tạo 
   * Cập nhật

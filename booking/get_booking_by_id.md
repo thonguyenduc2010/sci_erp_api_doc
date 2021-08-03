@@ -1,39 +1,27 @@
-***LEAD***
+***Lấy thông tin booking từ ID***
 ----
-  <_Additional information about your API call. Try to use verbs that match both request type (fetching vs modifying) and plurality (one vs multiple)._>
+ Lấy thông tin 1 booking với ID
 
 * **URL**
 
-  <_The URL Structure (path only, no root url)_>
-
+  /{domain}/api/v1/booking/{id}
+  /{domain}/api/v1/booking/search?code={CODE}
 * **Method:**
   
-  <_The request type_>
-
-  `GET` | `POST` | `DELETE` | `PUT`
+  `GET`
   
 *  **URL Params**
 
-   <_If URL params exist, specify them in accordance with name mentioned in URL section. Separate into optional and required. Document data constraints._> 
-
-   **Required:**
- 
-   `id=[integer]`
-
-   **Optional:**
- 
-   `photo_id=[alphanumeric]`
-
-* **Data Params**
-
-  <_If making a post request, what should the body payload look like? URL Params rules apply here too._>
+   /{domain}/api/v1/booking/search?code='KN0001'
 
 * **Success Response:**
   
   <_What should the status code be on success and is there any returned data? This is useful when people need to to know what their callbacks should expect!_>
 
   * **Code:** 200 <br />
-    **Content:** `{ id : 12 }`
+    **Content:** `{ id : 12,
+    date: '2001-08-01'
+    }`
  
 * **Error Response:**
 

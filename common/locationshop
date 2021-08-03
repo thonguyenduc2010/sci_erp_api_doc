@@ -8,23 +8,9 @@
 
 * **Method:**
 
-  `GET` | `POST` | `DELETE` | `PUT`
+  `GET`
   
 *  **URL Params**
-
-   <_If URL params exist, specify them in accordance with name mentioned in URL section. Separate into optional and required. Document data constraints._> 
-
-   **Required:**
- 
-   `id=[integer]`
-
-   **Optional:**
- 
-   `photo_id=[alphanumeric]`
-
-* **Data Params**
-
-  <_If making a post request, what should the body payload look like? URL Params rules apply here too._>
 
 * **Success Response:**
   

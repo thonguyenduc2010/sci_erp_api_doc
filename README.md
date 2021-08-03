@@ -16,7 +16,7 @@
   * Cập nhật booking, cập nhật Khiếu nại
   * Lấy thông tin booking qua ID booking
 ## 4. Account
-  [4.1.Lấy thông tin 1 khách hàng](https://github.com/thonguyenduc2010/sci_erp_api_doc/blob/main/account.md)
+  - [4.1.Lấy thông tin 1 khách hàng](https://github.com/thonguyenduc2010/sci_erp_api_doc/blob/main/account.md)
 ## 5. Phonecall
   * Đẩy thông tin sang Caresoft
   * Tạo phonecall để lưu trữ thông tin

@@ -19,5 +19,6 @@
   * Chi tiết về account qua số điện thoại
 ## 5. Phonecall
   * Đẩy thông tin sang Caresoft
+  * Tạo phonecall để lưu trữ thông tin
 ## 6. SMS
   * Đẩy thông tin sang Caresoft

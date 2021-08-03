@@ -20,7 +20,7 @@
    -Số điện thoại của khách hàng
     | Attribute  | Method  | Type  | Description  |   |
     |---|---|---|---|---|
-    |   |   |   |   |   |
+    | phone | GET  | string  | Số điện thoại của khách hàng  |   |
     |   |   |   |   |   |
     |   |   |   |   |   |
 

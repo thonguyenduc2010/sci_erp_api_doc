@@ -18,8 +18,10 @@
 ### [3.4. Lấy thông tin booking qua ID booking](https://github.com/thonguyenduc2010/sci_erp_api_doc/blob/main/booking/get_booking_by_id.md)
 ## 4. Account
   ### [4.1. Lấy thông tin 1 khách hàng](https://github.com/thonguyenduc2010/sci_erp_api_doc/blob/main/account.md)
+
 ## 5. Phonecall
+### [5.1. Tạo phonecall](https://github.com/thonguyenduc2010/sci_erp_api_doc/blob/main/phonecall/create_phonecall.md)
   * Đẩy thông tin sang Caresoft
-  * Tạo phonecall để lưu trữ thông tin
+  
 ## 6. SMS
   * Đẩy thông tin sang Caresoft

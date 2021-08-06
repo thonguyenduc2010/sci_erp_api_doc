@@ -2,12 +2,12 @@
 ## Mô tả
 ## 1. Common
   ### [1.1. Danh sách Cơ sở](https://github.com/thonguyenduc2010/sci_erp_api_doc/blob/main/common/locationshop.md)
-  * Danh sách dịch vụ
-  * Danh sách Khuyến mại
-  * Danh sách nguồn
-  * Danh sách Bảng giá
-  * Danh sách Chiến dịch
-  * Danh sách phòng ban( phục vụ cho case khiếu nại)
+  ### [1.2. Danh sách Dịch vụ](https://github.com/thonguyenduc2010/sci_erp_api_doc/blob/main/common/service.md)
+  ### [1.3. Danh sách Khuyến Mãi](https://github.com/thonguyenduc2010/sci_erp_api_doc/blob/main/common/promotion.md)
+  ### [1.4. Danh sách Bảng giá](https://github.com/thonguyenduc2010/sci_erp_api_doc/blob/main/common/pricelist.md)
+  ### [1.5. Danh sách Chiến dịch](https://github.com/thonguyenduc2010/sci_erp_api_doc/blob/main/common/campaign.md)
+  ### [1.6. Danh sách Phòng ban](https://github.com/thonguyenduc2010/sci_erp_api_doc/blob/main/common/department.md)
+
 ## 2. Lead
   * Tạo 
   * Cập nhật

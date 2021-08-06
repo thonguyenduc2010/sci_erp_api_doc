@@ -7,6 +7,7 @@
   * Danh sách nguồn
   * Danh sách Bảng giá
   * Danh sách Chiến dịch
+  * Danh sách phòng ban( phục vụ cho case khiếu nại)
 ## 2. Lead
   * Tạo 
   * Cập nhật

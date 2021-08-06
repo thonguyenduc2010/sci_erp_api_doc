@@ -10,7 +10,7 @@
 
 ## 2. Lead
 ### [2.1. Tạo lead](https://github.com/thonguyenduc2010/sci_erp_api_doc/blob/main/lead/create_lead.md)
-### [2.2. Tạo lead](https://github.com/thonguyenduc2010/sci_erp_api_doc/blob/main/lead/update_lead.md)
+### [2.2. Cập nhật lead](https://github.com/thonguyenduc2010/sci_erp_api_doc/blob/main/lead/update_lead.md)
   
 ## 3. Booking
 ### [3.1. Tính giá dịch vụ](https://github.com/thonguyenduc2010/sci_erp_api_doc/blob/main/booking/calculate_price.md)

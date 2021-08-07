@@ -16,7 +16,7 @@ Header:
 
 ## 1. Common
   ### [1.1. Danh sách Cơ sở](https://github.com/thonguyenduc2010/sci_erp_api_doc/blob/main/common/locationshop.md)
-  ### [1.2. Danh sách Dịch vụ](https://github.com/thonguyenduc2010/sci_erp_api_doc/blob/main/common/service.md)
+  ### [1.2. Danh sách Dịch vụ](https://github.com/thonguyenduc2010/sci_erp_api_doc/blob/main/common/services.md)
   ### [1.3. Danh sách Khuyến Mãi](https://github.com/thonguyenduc2010/sci_erp_api_doc/blob/main/common/promotion.md)
   ### [1.4. Danh sách Bảng giá](https://github.com/thonguyenduc2010/sci_erp_api_doc/blob/main/common/pricelist.md)
   ### [1.5. Danh sách Chiến dịch](https://github.com/thonguyenduc2010/sci_erp_api_doc/blob/main/common/campaign.md)

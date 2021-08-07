@@ -5,7 +5,7 @@
     /{domain}/api/v1/case
  **Method**
 
-    `POST`
+    `GET|POST`
  **URL Params**
   
   *Complain Params*

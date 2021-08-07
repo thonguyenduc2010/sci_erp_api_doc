@@ -3,6 +3,7 @@
  **URL**
 
     /{domain}/api/v1/case
+    /{domain}/api/v1/case?id={int}
  **Method**
 
     `GET|POST`

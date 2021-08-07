@@ -13,9 +13,11 @@
 *  **URL Params**
 
    /{domain}/api/v1/lead
-    | Attribute  | Method  | Type  | Description  |   |
+    | Attribute  | Method  | Type  | Description  | Require  |
     |---|---|---|---|---|
-    | phone | GET  | string  | Số điện thoại của khách hàng  |   |
+    | phone | POST  | string  | Số điện thoại của khách hàng  | True |
+    | mobile | POST  | string  | Số di động của khách hàng  | False  |
+    | gender | POST  | string  | Giới tính  | True  |
     |   |   |   |   |   |
     |   |   |   |   |   |
 

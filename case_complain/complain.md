@@ -13,6 +13,6 @@
   
   | Attribute| Type  | Description  |  Required | Note |
   |---|---|---|---|---|
-  | complain_group| integer  | Nhóm khiếu nại | x  | Danh sách nhóm khiếu nại |
+  | complain_group_id| integer  | Nhóm khiếu nại | x  | Danh sách nhóm khiếu nại |
   | name | string  | Tên Case | x  | Tên khiếu nại |
   | department_ids| integer  | Phòng ban |   | Danh sách phòng ban |

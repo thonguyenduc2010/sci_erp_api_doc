@@ -1,9 +1,11 @@
 ***Tạo và cập nhật Case khiếu nại***
 ----
  **URL**
-
-    /{domain}/api/v1/crm.case
-    /{domain}/api/v1/crm.case?id={int}
+    
+    *Tạo một case khiếu nại
+      /{domain}/api/v1/crm.case
+    *Cập nhật case khiếu nại 
+      /{domain}/api/v1/crm.case?id={int}
  **Method**
 
     `GET|POST`
@@ -17,7 +19,7 @@
   | complain_group_id| integer  | Nhóm khiếu nại | x  | Danh sách nhóm khiếu nại  _model:crm.complain.group_ |
   | complain_id| integer  | Nội dung khiếu nại | x  | Danh sách khiếu nại  _model:crm.complain_ |
   | type_case| integer  | Loại case | x  | 1:Complain, 2:Warning |
-  | start_date| datetime  | Ngày giờ bắt đầu/tiếp nhận | x  | Mặc định là thời gian hiện tại tại thời điểm tạo case |
+  | start_date| datetime  | Ngày giờ bắt đầu/tiếp nhận | x  | Mặc định là thời gian hiện tại tại thời điểm tạo case. Định dạng _Y-M-D H:M:S_ |
   | receive_source| integer  | Nguồn tiếp nhận | x  | 1:Call center, 2:Email, 3:Inbox, 4:Directly |
   | phone| string  | Số điện thoại khách hàng | x  |
   | partner_id| integer  | Tên khách hàng |   | Danh sách khách hàng |
@@ -40,3 +42,25 @@
   |---|---|---|---|---|---|
   | desc| string  | Phản ánh khách hàng |   |  |
   | solution| string  | Giải pháp |   |  |
+
+* **Phản hồi thành công:**
+
+  * **Code:** 200 <br />
+    **Content:** `{ id : ,}`
+ 
+* **Lỗi:**
+    
+  <_Thiếu các trường bắt buộc_>
+
+  * **Code:** 422 UNPROCESSABLE ENTRY <br />
+    **Content:** `{ error : "Missing required field value" }`
+  
+  <_Số lượng của từng dịch vụ nhập vào không hợp lệ_>
+
+  * **Code:** 422 UNPROCESSABLE ENTRY <br />
+    **Content:** `{ error : "Quantity Invalid" }`
+
+  <_Dịch vụ không nằm trong bảng giá hiện hành_>
+
+  * **Code:** 422 UNPROCESSABLE ENTRY <br />
+    **Content:** `{ error : "Service is not included in the current price list" }`

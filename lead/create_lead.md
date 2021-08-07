@@ -15,7 +15,7 @@
    /{domain}/api/v1/lead
     | Attribute  | Require  | Type  | Description  |
     |---|---|---|---|---|
-    | phone | True  | string  | Số điện thoại của khách hàng  | True |
+    | phone | True  | string  | Số điện thoại của khách hàng  |
     |   |   |   |   |   |
     |   |   |   |   |   |
 

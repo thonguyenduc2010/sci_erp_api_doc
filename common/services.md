@@ -13,13 +13,15 @@
   
     `GET`
 
-* **Data Params**
+* **Url Params**
 
-  | Attribute| Type  | Description  |  Required | Note |
-  |---|---|---|---|---|
-  | code| string  | Mã dịch vụ | | |
-  | company| string  | Tên cơ sở y tế | | |
-  | brand| string  | Thương hiệu | | |
+
+  | Method | Attribute| Type | Description |
+  |---|---|---|---|
+  | `GET` | code | string  | Mã dịch vụ |
+  | `GET` | company| string  | Mã cơ sở y tế |
+  | `GET` | brand| string  | Mã thương hiệu |
+
 
 * **Phản hồi thành công:**
     * **Code:** 200 <br />

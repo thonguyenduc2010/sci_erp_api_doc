@@ -27,3 +27,6 @@
   
 ## 6. SMS
   * Đẩy thông tin sang Caresoft
+
+## 7. Case Khiếu nại
+### [7.1. Tạo khiếu nại](https://github.com/thonguyenduc2010/sci_erp_api_doc/blob/main/case_complain/create_case_complain.md)

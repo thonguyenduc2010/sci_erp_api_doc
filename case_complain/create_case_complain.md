@@ -2,7 +2,7 @@
 ----
  **URL**
 
-    /{domain}/api/v1/model
+    /{domain}/api/v1/case
  **Method**
 
     `POST`

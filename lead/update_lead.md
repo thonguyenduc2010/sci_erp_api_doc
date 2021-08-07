@@ -4,7 +4,7 @@
 
 * **URL**
 
-  /{domain}/api/v1/lead
+  /{domain}/api/v1/lead/{id}
 
 * **Method:**
   
@@ -16,6 +16,7 @@
     | Attribute  | Method  | Type  | Description  |   |
     |---|---|---|---|---|
     | phone | PUT  | string  | Số điện thoại của khách hàng  |   |
+    | service_id | PUT  | int  | Tên dịch vụ  |   |
     |   |   |   |   |   |
     |   |   |   |   |   |
 

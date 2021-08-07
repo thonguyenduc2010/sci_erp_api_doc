@@ -7,6 +7,8 @@
   ### [1.4. Danh sách Bảng giá](https://github.com/thonguyenduc2010/sci_erp_api_doc/blob/main/common/pricelist.md)
   ### [1.5. Danh sách Chiến dịch](https://github.com/thonguyenduc2010/sci_erp_api_doc/blob/main/common/campaign.md)
   ### [1.6. Danh sách Phòng ban](https://github.com/thonguyenduc2010/sci_erp_api_doc/blob/main/common/department.md)
+  ### [1.7. Danh sách Quốc gia](https://github.com/thonguyenduc2010/sci_erp_api_doc/blob/main/common/countries.md)
+  ### [1.8. Danh sách Tỉnh thành](https://github.com/thonguyenduc2010/sci_erp_api_doc/blob/main/common/states.md)
 
 ## 2. Lead
 ### [2.1. Tạo lead](https://github.com/thonguyenduc2010/sci_erp_api_doc/blob/main/lead/create_lead.md)

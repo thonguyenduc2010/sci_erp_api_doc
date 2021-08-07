@@ -4,9 +4,11 @@
 
 - Xác thực qua access token, yêu cầu tất cả các request gọi lên đều phải thêm "access-token" header
 - Ví dụ:
+
 POST: /{domain}/api/v1/lead
-Header:
+
 ```
+Header:
 access-token: {access_token}
 aontent-type: application/x-www-form-urlencoded
 charset: utf-8

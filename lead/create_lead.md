@@ -13,11 +13,12 @@
 *  **URL Params**
 
    /{domain}/api/v1/lead
-    | Attribute  | Require  | Type  | Description |
-    |---|---|---|---|
-    | phone | True  | string  | Số điện thoại của khách hàng |
-    | contact_name | True | string | Tên liên hệ của khách hàng |
-    | gender | True | | |
+    | Attribute  | Require  | Type  | Note | Description |
+    |---|---|---|---| ---|
+    | phone | True  | String  | | Số điện thoại của khách hàng |
+    | contact_name | True | string | | Tên liên hệ của khách hàng |
+    | gender | True | String | 'male' - Nam; 'female' - Nữ; 'other' - Khác | Giới tính của khách hàng |
+    | type | True | Sting | 'lead' - Tiềm năng | Loại bản ghi là Lead |
     |   |   |   |   |   |
     |   |   |   |   |   |
 

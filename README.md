@@ -2,13 +2,13 @@
 ## Mô tả
 ## Xác thực (Authorization)
 
-- Xác thực qua access token, yêu cầu tất cả các request gọi lên đều phải thêm "authorization" header
+- Xác thực qua access token, yêu cầu tất cả các request gọi lên đều phải thêm "access-token" header
 - Ví dụ:
 POST: /{domain}/api/v1/lead
 Header:
 ```
-authorization: {access_token}
-aontent-Type: application/x-www-form-urlencoded
+access-token: {access_token}
+aontent-type: application/x-www-form-urlencoded
 charset: utf-8
 ```
 

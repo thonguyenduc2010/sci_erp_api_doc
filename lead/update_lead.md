@@ -15,7 +15,7 @@
    /{domain}/api/v1/lead
     | Attribute  | Method  | Type  | Description  |   |
     |---|---|---|---|---|
-    | phone | GET  | string  | Số điện thoại của khách hàng  |   |
+    | phone | PUT  | string  | Số điện thoại của khách hàng  |   |
     |   |   |   |   |   |
     |   |   |   |   |   |
 

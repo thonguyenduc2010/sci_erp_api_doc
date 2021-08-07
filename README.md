@@ -45,5 +45,6 @@ Header:
   * Đẩy thông tin sang Caresoft
 
 ## 7. Case Khiếu nại
-### [7.1. Danh sách khiếu nại](https://github.com/thonguyenduc2010/sci_erp_api_doc/blob/main/case_complain/cases.md)
-### [7.2. Tạo case khiếu nại](https://github.com/thonguyenduc2010/sci_erp_api_doc/blob/main/case_complain/create_case_complain.md)
+### [7.1. Danh sách nhóm khiếu nại](https://github.com/thonguyenduc2010/sci_erp_api_doc/blob/main/case_complain/complain_group.md)
+### [7.2. Danh sách khiếu nại](https://github.com/thonguyenduc2010/sci_erp_api_doc/blob/main/case_complain/complain.md)
+### [7.3. Tạo case khiếu nại](https://github.com/thonguyenduc2010/sci_erp_api_doc/blob/main/case_complain/create_case_complain.md)

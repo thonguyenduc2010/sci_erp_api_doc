@@ -9,9 +9,9 @@ POST: /{domain}/api/v1/lead
 
 ```
 Header:
-access-token: {access_token}
-aontent-type: application/x-www-form-urlencoded
-charset: utf-8
+  access-token: {access_token}
+  aontent-type: application/x-www-form-urlencoded
+  charset: utf-8
 ```
 
 ## 1. Common

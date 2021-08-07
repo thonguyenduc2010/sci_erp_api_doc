@@ -16,6 +16,8 @@
     | Attribute  | Require  | Type  | Description |
     |---|---|---|---|
     | phone | True  | string  | Số điện thoại của khách hàng |
+    | contact_name | True | string | Tên liên hệ của khách hàng |
+    | gender | True | | |
     |   |   |   |   |   |
     |   |   |   |   |   |
 

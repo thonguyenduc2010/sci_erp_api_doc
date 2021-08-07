@@ -1,5 +1,17 @@
 # Tài liệu API 
 ## Mô tả
+## Xác thực (Authorization)
+
+- Xác thực qua access token, yêu cầu tất cả các request gọi lên đều phải thêm "authorization" header
+- Ví dụ:
+POST: /{domain}/api/v1/lead
+Header:
+```
+authorization: {access_token}
+aontent-Type: application/x-www-form-urlencoded
+charset: utf-8
+```
+
 ## 1. Common
   ### [1.1. Danh sách Cơ sở](https://github.com/thonguyenduc2010/sci_erp_api_doc/blob/main/common/locationshop.md)
   ### [1.2. Danh sách Dịch vụ](https://github.com/thonguyenduc2010/sci_erp_api_doc/blob/main/common/service.md)

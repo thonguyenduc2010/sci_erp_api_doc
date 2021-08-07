@@ -54,13 +54,3 @@
 
   * **Code:** 422 UNPROCESSABLE ENTRY <br />
     **Content:** `{ error : "Missing required field value" }`
-  
-  <_Số lượng của từng dịch vụ nhập vào không hợp lệ_>
-
-  * **Code:** 422 UNPROCESSABLE ENTRY <br />
-    **Content:** `{ error : "Quantity Invalid" }`
-
-  <_Dịch vụ không nằm trong bảng giá hiện hành_>
-
-  * **Code:** 422 UNPROCESSABLE ENTRY <br />
-    **Content:** `{ error : "Service is not included in the current price list" }`

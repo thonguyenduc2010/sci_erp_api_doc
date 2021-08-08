@@ -50,10 +50,6 @@
         "age": 31,
         "gender": "male",
         "code_customer": "CUS276780",
-        "property_product_pricelist": [
-            1,
-            "Bảng giá niêm yết Kangnam 2021 (VND)"
-        ],
         "invoice_ids": [
             1111,
             1110,
@@ -115,8 +111,6 @@
  
 * **Error Response:**
 
-  <_Most endpoints will have many ways they can fail. From unauthorized access, to wrongful parameters etc. All of those should be liste d here. It might seem repetitive, but it helps prevent assumptions from being made where they should be._>
-
   * **Code:** 401 UNAUTHORIZED <br />
     **Content:** `{ error : "Log in" }`
 
@@ -127,8 +121,8 @@
 
 * **Sample Call:**
 
-  <_Just a sample call to your endpoint in a runnable format ($.ajax call or a curl request) - this makes life easier and more predictable._> 
+
 
 * **Notes:**
 
-  <_This is where all uncertainties, commentary, discussion etc. can go. I recommend timestamping and identifying oneself when leaving comments here._> 
+

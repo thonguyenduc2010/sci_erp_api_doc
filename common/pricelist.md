@@ -4,10 +4,21 @@
 
 * **URL**
 
+    `GET` Danh sách bảng giá: 
+    `/{domain}/api/v1/price-list`
+  
+    `GET` Chi tiết danh sách bảng giá theo ID: 
+    `/{domain}/api/v1/price-list/<id>`
     
-    /{domain}/api/v1/price-list
+    `GET` Chi tiết thông tin dịch vụ trong bảng giá: 
+    `/{domain}/api/v1/price-list-item`
+  
+    `GET` Chi tiết thông tin dịch vụ trong bảng giá theo ID: 
+    `/{domain}/api/v1/price-list-item/<id>`
 
-
+    `GET` Chi tiết thông tin dịch vụ trong bảng giá theo ID bảng giá: 
+    `/{domain}/api/v1/price-list-item/<price_list_id>`
+  
 * **Method:**
 
   
@@ -18,22 +29,41 @@
 
   | Method | Attribute| Type | Description |
   |---|---|---|---|
-  | `GET` | code | string  | Mã bảng giá |
-  | `GET` | company| string  | Mã cơ sở y tế |
-  | `GET` | brand| string  | Mã thương hiệu |
+  | `GET` | id | int  | ID bảng giá |
+  | `GET` | brand| string  | ID thương hiệu |
 
 
 * **Phản hồi thành công:**
     * **Code:** 200 <br />
     * **Content:** <br />
-    `{` <br />
-	`'id': 12,`  <br />
-	`'code': None,`  <br />
-   ` 'name': 'Bảng giá niêm yết Paris 2021',` <br />
-	`'start_date': 2021-01-01,` <br />
-	`'end_date': 2021-12-31,` <br />
-	`'type': 'service',` <br />
-    `} `<br />
+
+      
+    "count": 2,
+    "data": [
+        {
+            "id": 12,
+            "name": "Bảng giá niêm yết Paris 2021",
+            "company_id": false,
+            "brand_id": [
+                3,
+                "Paris"
+            ],
+            "start_date": false,
+            "end_date": false,
+            "type": "service"
+        },
+        {
+            "id": 11,
+            "name": "Bảng giá niêm yết Đông Á 2021",
+            "company_id": false,
+            "brand_id": [
+                2,
+                "Đông Á"
+            ],
+            "start_date": false,
+            "end_date": false,
+            "type": "service"
+        }]
       
 
 * **Lỗi:**

@@ -3,9 +3,9 @@
  **URL**
     
     *Tạo một case khiếu nại
-      /{domain}/api/v1/crm.case
+      /{domain}/api/v1/crm-case
     *Cập nhật case khiếu nại 
-      /{domain}/api/v1/crm.case?id={int}
+      /{domain}/api/v1/crm-case?id={int}
  **Method**
 
     `GET|POST`

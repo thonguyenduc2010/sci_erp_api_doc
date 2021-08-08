@@ -2,7 +2,8 @@
 ----
 * **URL**
 
-    /{domain}/api/v1/booking/canculate_price
+    /{domain}/api/v1/booking/canculate-price
+    
  **Method**
 
     `GET`

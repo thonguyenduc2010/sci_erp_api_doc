@@ -2,7 +2,7 @@
 ----
  **URL**
 
-    /{domain}/api/v1/crm.complain.group
+    /{domain}/api/v1/crm.complain-group
  **Method**
 
     `GET`

@@ -2,8 +2,8 @@
 ----
  **URL**
 
-    /{domain}/api/v1/crm.complain
-    /{domain}/api/v1/crm.complain?complain_group={id}
+    /{domain}/api/v1/crm-complain
+    /{domain}/api/v1/crm-complain?complain_group={id}
  **Method**
 
     `GET`

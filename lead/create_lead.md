@@ -30,6 +30,7 @@
     | category_source_id | True | Int | | Nhóm nguồn |
     | source_id | True | Int | | Nguồn |
     | campaign_id | True | Int | | Chiến dịch | 
+    | crm_line_ids | True | Mảng | | Danh sách sản phẩm |
     |   |   |   |   |   |
     |   |   |   |   |   |
 

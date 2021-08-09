@@ -34,7 +34,15 @@
     | mobile | False | String| | Di động |
     | birth_date | False | Date | | Ngày sinh |
     | pass_port | False | String | | Chứng minh nhân dân |
-    |   |   |   |   |   |
+    | email_from | False | String | | Email |
+    | facebook_acc | False | String | | Tài khoản facebook |
+    | type_data | False | String | 'old' - Cũ; 'new' - Mới | Kiểu dữ liệu |
+    | re_open | False | Boolean | | Mở lại |
+    | check_booking | False | Boolean | | Check booking |
+    | medium_id | False | Int | | Kênh trung gian |
+    | fam_ids | False | Mảng | | Thông tin người thân |
+    | note | False | Text | | Ghi chú |
+    | special_note | False | Text | | Ghi chú đặc biệt |
     |   |   |   |   |   |
 
 * **Success Response:**

@@ -33,7 +33,7 @@
     | category_source_id | True | Int | | Nhóm nguồn |
     | source_id | True | Int | | Nguồn |
     | campaign_id | True | Int | | Chiến dịch | 
-    | crm_line_ids | True | Mảng | [ <br/> { <br/> 'service_id': id, <br/> 'quantity': Int, <br/> 'source_extend_id': id, <br/> }, <br/> ] <br/> - service_id: Sản phẩm <br/>- quantity: Số lượng <br/>- source_extend_id: Nguồn mở rộng  | Danh sách sản phẩm |
+    | crm_line_ids | True | Mảng | [ <br/> { <br/> 'service_id': Int, <br/> 'quantity': Int, <br/> 'source_extend_id': Int, <br/> }, <br/> ] <br/> - service_id: Sản phẩm <br/>- quantity: Số lượng <br/>- source_extend_id: Nguồn mở rộng  | Danh sách sản phẩm |
     | mobile | False | String| | Di động |
     | birth_date | False | Date | | Ngày sinh |
     | pass_port | False | String | | Chứng minh nhân dân |
@@ -44,7 +44,7 @@
     | medium_id | False | Int | | Kênh trung gian |
     | company2_id | False | Int | Chọn công ty | Shared booking |
     | gclid | False | String | | Mã Gclid |
-    | fam_ids | False | Mảng | [ <br/> { <br/> 'phone': String, <br/> 'member_name': String, <br/> 'type_relation_id': id, <br/> }, <br/> ] <br/> - phone: Số đi thoại <br/>- member_name: Họ và tên <br/>- type_relation_id: Mối quan hệ | Thông tin người thân |
+    | fam_ids | False | Mảng | [ <br/> { <br/> 'phone': String, <br/> 'member_name': String, <br/> 'type_relation_id': Int, <br/> }, <br/> ] <br/> - phone: Số đi thoại <br/>- member_name: Họ và tên <br/>- type_relation_id: Mối quan hệ | Thông tin người thân |
     | note | False | Text | | Ghi chú |
     | special_note | False | Text | | Ghi chú đặc biệt |
     |   |   |   |   |   |

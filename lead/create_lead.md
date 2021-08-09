@@ -10,7 +10,7 @@
   
   `POST`
   
-*  **URL Params**
+*  **BODY Params**
 
    /{domain}/api/v1/lead
     | Attribute  | Require  | Type  | Note | Description |

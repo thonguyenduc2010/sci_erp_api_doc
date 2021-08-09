@@ -15,7 +15,6 @@
    /{domain}/api/v1/booking
     | Attribute  | Require  | Type  | Note | Description |
     |---|---|---|---| ---|
-    | name | True | String | | Mã Booking |
     | phone | True  | String  | | Số điện thoại của khách hàng |
     | contact_name | True | String | | Tên liên hệ của khách hàng |
     | gender | True | String | 'male' - Nam; 'female' - Nữ; 'other' - Khác | Giới tính của khách hàng |

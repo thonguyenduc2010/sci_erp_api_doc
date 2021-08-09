@@ -10,7 +10,7 @@
   
   `PUT`
   
-*  **URL Params**
+*  BODY
 
    /{domain}/api/v1/lead/{id}
     | Attribute  | Require  | Type  | Note | Description |

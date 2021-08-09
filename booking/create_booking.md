@@ -10,7 +10,7 @@
   
   `POST`
   
-*  **BODY **
+*  ** BODY **
 
    /{domain}/api/v1/booking
     | Attribute  | Require  | Type  | Note | Description |

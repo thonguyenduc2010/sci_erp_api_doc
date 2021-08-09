@@ -4,7 +4,7 @@
 
 * **URL**
 
-  /{domain}/api/v1/booking/{id}
+  /{domain}/api/v1/booking/{id} <br/>
   /{domain}/api/v1/booking/search?code={CODE}
 * **Method:**
   
@@ -12,7 +12,9 @@
   
 *  **URL Params**
 
+   /{domain}/api/v1/booking/1
    /{domain}/api/v1/booking/search?code='KN0001'
+   
 
 * **Success Response:**
   

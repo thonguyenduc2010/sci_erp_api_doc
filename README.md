@@ -33,6 +33,11 @@ Header:
 ### [3.2. Tạo booking](https://github.com/thonguyenduc2010/sci_erp_api_doc/blob/main/booking/create_booking.md)
 ### [3.3. Cập nhật booking](https://github.com/thonguyenduc2010/sci_erp_api_doc/blob/main/booking/update_booking.md)
 ### [3.4. Lấy thông tin booking qua ID booking](https://github.com/thonguyenduc2010/sci_erp_api_doc/blob/main/booking/get_booking_by_id.md)
+### 3.5. Danh sách "Giai đoạn"
+### 3.6 Danh sách "Nhóm nguồn"
+### 3.7. Danh sách "Nguồn"
+### 3.8. Danh sách "Kênh trung gian"
+### 3.9. Danh sách "Nguồn mở rộng"
 
 ## 4. Account
   ### [4.1. Lấy thông tin 1 khách hàng](https://github.com/thonguyenduc2010/sci_erp_api_doc/blob/main/account.md)

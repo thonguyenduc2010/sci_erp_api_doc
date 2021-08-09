@@ -13,7 +13,6 @@
   
 * **Method:**
 
-  
     `GET`
 
 * **Url Params**
@@ -37,7 +36,6 @@
         {
             "id": 12,
             "name": "Bảng giá niêm yết Paris 2021",
-            "company_id": false,
             "brand_id": [
                 3,
                 "Paris"
@@ -49,7 +47,6 @@
         {
             "id": 11,
             "name": "Bảng giá niêm yết Đông Á 2021",
-            "company_id": false,
             "brand_id": [
                 2,
                 "Đông Á"

@@ -1,55 +1,64 @@
 
-***Danh sách chiến dịch***
+***1.4 Danh sách chiến dịch***
 ----
 
 * **URL**
 
-  /{domain}/api/v1/campaign
-
+    `GET` Danh sách chiến dịch: 
+    `/{domain}/api/v1/campaign`
+  
+    `GET` Chi tiết danh sách chiến dịch theo ID: 
+    `/{domain}/api/v1/campaign/<id>`
+    
+    `GET` Chi tiết thông tin chiến dịch: 
+    `/{domain}/api/v1/campaign-item`
+  
+   
+  
 * **Method:**
+
   
     `GET`
+
+* **Url Params**
+
+
+  | Method | Attribute| Type | Description |
+  |---|---|---|---|
+  | `GET` | id | int  | ID Chiến dịch |
+ 
+
+
+* **Phản hồi thành công:**
+    * **Code:** 200 <br />
+    * **Content:** <br />
   
-*  **URL Params**
-
-   <_If URL params exist, specify them in accordance with name mentioned in URL section. Separate into optional and required. Document data constraints._> 
-
-   **Required:**
- 
-   `id=[integer]`
-
-   **Optional:**
- 
-   `photo_id=[alphanumeric]`
-
-* **Data Params**
-
-  <_If making a post request, what should the body payload look like? URL Params rules apply here too._>
-
-* **Success Response:**
+`GET` Danh sách chiến dịch: 
+    `/{domain}/api/v1/campaign`
   
-  <_What should the status code be on success and is there any returned data? This is useful when people need to to know what their callbacks should expect!_>
+      
+    "count": 2,
+    "data": [
+        {
+            "id": 24,
+            "name": "NGÀY VÀNG HỘI THẢO T6/2021",
+            "brand_id": [
+                3,
+                "Paris"
+            ],
+        },
+        {
+            "id": 11,
+            "name": "HỘI CHỈNH NHA NIỀNG RĂNG",
+            "brand_id": [
+                3,
+                "Paris"
+            ],
+        }]
+      
 
-  * **Code:** 200 <br />
-    **Content:** `{ id : 12 }`
- 
-* **Error Response:**
+* **Lỗi:**
 
-  <_Most endpoints will have many ways they can fail. From unauthorized access, to wrongful parameters etc. All of those should be liste d here. It might seem repetitive, but it helps prevent assumptions from being made where they should be._>
-
-  * **Code:** 401 UNAUTHORIZED <br />
+  * _Lỗi đăng nhập không thành công_ <br />
+    **Code:** 401 UNAUTHORIZED <br />
     **Content:** `{ error : "Log in" }`
-
-  OR
-
-  * **Code:** 422 UNPROCESSABLE ENTRY <br />
-    **Content:** `{ error : "Email Invalid" }`
-
-* **Sample Call:**
-
-  <_Just a sample call to your endpoint in a runnable format ($.ajax call or a curl request) - this makes life easier and more predictable._> 
-
-* **Notes:**
-
-  <_This is where all uncertainties, commentary, discussion etc. can go. I recommend timestamping and identifying oneself when leaving comments here._> 
-

@@ -15,10 +15,13 @@
    /{domain}/api/v1/booking
     | Attribute  | Require  | Type  | Note | Description |
     |---|---|---|---| ---|
+    | name | True | String | | Mã Booking |
     | phone | True  | String  | | Số điện thoại của khách hàng |
     | contact_name | True | String | | Tên liên hệ của khách hàng |
     | gender | True | String | 'male' - Nam; 'female' - Nữ; 'other' - Khác | Giới tính của khách hàng |
-    | type | True | Sting | 'lead' - Tiềm năng | Loại bản ghi là Lead |
+    | type | True | Sting | 'opportunity' - Cơ hội | Loại bản ghi là Booking |
+    | booking_date | True | Date | | Ngày hẹn lịch |
+    | customer_come | True | String |'yes' - Có; 'no' - Không | Khách hàng đến cửa |
     | year_of_birth | True | String | | Năm sinh của khách hàng |
     | country_id | True | Int | | Quốc gia |
     | state_id | True | Int | | Tỉnh/ Thành phố |
@@ -36,7 +39,6 @@
     | pass_port | False | String | | Chứng minh nhân dân |
     | email_from | False | String | | Email |
     | facebook_acc | False | String | | Tài khoản facebook |
-    | type_data | False | String | 'old' - Cũ; 'new' - Mới | Kiểu dữ liệu |
     | re_open | False | Boolean | | Mở lại |
     | check_booking | False | Boolean | | Check booking |
     | medium_id | False | Int | | Kênh trung gian |

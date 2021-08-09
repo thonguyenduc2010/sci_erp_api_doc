@@ -39,6 +39,7 @@ Header:
 
 ## 5. Phonecall
 ### [5.1. Tạo phonecall](https://github.com/thonguyenduc2010/sci_erp_api_doc/blob/main/phonecall/create_phonecall.md)
+### [5.2. Danh sách phonecall](https://github.com/thonguyenduc2010/sci_erp_api_doc/blob/main/phonecall/phonecall.md)
   * Đẩy thông tin sang Caresoft
   
 ## 6. SMS

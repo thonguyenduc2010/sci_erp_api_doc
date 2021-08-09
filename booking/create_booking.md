@@ -42,7 +42,8 @@
     | re_open | False | Boolean | | Mở lại |
     | check_booking | False | Boolean | | Check booking |
     | medium_id | False | Int | | Kênh trung gian |
-    | company2_id | False | Int | Chọn công ty | Shared booking | 
+    | company2_id | False | Int | Chọn công ty | Shared booking |
+    | gclid | False | String | | Mã Gclid |
     | fam_ids | False | Mảng | [ <br/> { <br/> 'phone': String, <br/> 'member_name': String, <br/> 'type_relation_id': id, <br/> }, <br/> ] <br/> - phone: Số đi thoại <br/>- member_name: Họ và tên <br/>- type_relation_id: Mối quan hệ | Thông tin người thân |
     | note | False | Text | | Ghi chú |
     | special_note | False | Text | | Ghi chú đặc biệt |

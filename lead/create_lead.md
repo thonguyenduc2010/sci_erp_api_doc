@@ -36,7 +36,6 @@
     | pass_port | False | String | | Chứng minh nhân dân |
     | email_from | False | String | | Email |
     | facebook_acc | False | String | | Tài khoản facebook |
-    | type_data | False | String | 'old' - Cũ; 'new' - Mới | Kiểu dữ liệu |
     | re_open | False | Boolean | | Mở lại |
     | check_booking | False | Boolean | | Check booking |
     | medium_id | False | Int | | Kênh trung gian |

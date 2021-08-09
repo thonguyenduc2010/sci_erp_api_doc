@@ -12,7 +12,7 @@
   
 *  **URL Params**
 
-   /{domain}/api/v1/booking/1
+   /{domain}/api/v1/booking/1 <br/>
    /{domain}/api/v1/booking/search?code='KN0001'
    
 

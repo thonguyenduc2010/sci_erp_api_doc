@@ -5,7 +5,9 @@
 * **URL**
 
     
-    /{domain}/api/v1/services
+   `GET` Lấy danh sách dịch vụ `/{domain}/api/v1/services`
+
+   `GET` Lấy chi tiết danh sách dịch vụ theo ID `/{domain}/api/v1/services/{id}`
 
 
 * **Method:**
@@ -16,11 +18,9 @@
 * **Url Params**
 
 
-  | Method | Attribute| Type | Description |
-  |---|---|---|---|
-  | `GET` | code | string  | Mã dịch vụ |
-  | `GET` | company| string  | Mã cơ sở y tế |
-  | `GET` | brand| string  | Mã thương hiệu |
+  | Attribute| Type | Description |
+  |---|---|---|
+  | id | string  | Danh sách dịch vụ của ID |
 
 
 * **Phản hồi thành công:**

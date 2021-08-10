@@ -3,7 +3,7 @@
  **URL**
 
     8.2: Tạo phiếu đặt cọc
-    /{domain}/api/v1/crm_request_deposit/create
+    /{domain}/api/v1/crm-request-deposit/create
  **Method**
 
     `POST`

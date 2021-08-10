@@ -16,6 +16,6 @@
   * _Ngoài ra  nếu đầu vào còn cho biết THƯƠNG HIỆU và PHƯƠNG THỨC THANH TOÁN, ERP cũng lọc bớt các sổ nhật ký và trả về các sổ phù hợp_
 
     * **Code:** 200 <br />
-      **Content:** 
+      **Content:** `{ id : ,name: ' '}`
     
 

@@ -16,25 +16,27 @@
   
     * **Code:** 200 <br />
     **Content:** 
+    
     ```
-{
-    "error": 0,
-    "message": "Success",
-    "count": 7,
-    "data": [
-        {
-            "id": 1,
-            "code": "KN",
-            "name": "Kangnam"
-        },
-        {
-            "id": 2,
-            "code": "DA",
-            "name": "Đông Á"
-        },
-        ...
-    ]
-}
+      {
+          "error": 0,
+          "message": "Success",
+          "count": 7,
+          "data": [
+              {
+                  "id": 1,
+                  "code": "KN",
+                  "name": "Kangnam"
+              },
+              {
+                  "id": 2,
+                  "code": "DA",
+                  "name": "Đông Á"
+              },
+              ...
+          ]
+      }
+      
     ```
  
 * **Error Response:**

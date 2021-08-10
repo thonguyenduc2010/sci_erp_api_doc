@@ -55,3 +55,6 @@ Header:
 ### [7.1. Danh sách nhóm khiếu nại](https://github.com/thonguyenduc2010/sci_erp_api_doc/blob/main/case_complain/complain_group.md)
 ### [7.2. Danh sách khiếu nại](https://github.com/thonguyenduc2010/sci_erp_api_doc/blob/main/case_complain/complain.md)
 ### [7.3. Tạo case khiếu nại](https://github.com/thonguyenduc2010/sci_erp_api_doc/blob/main/case_complain/create_case_complain.md)
+
+## 8. Phiếu đặt cọc
+### [8.1. Tạo phiếu đặt cọc](https://github.com/thonguyenduc2010/sci_erp_api_doc/blob/main/deposit.md)

@@ -33,15 +33,8 @@
     | crm_line_ids | True | Mảng | [ <br/> { <br/> 'service_id': id, <br/> 'quantity': Int, <br/> 'source_extend_id': id, <br/> }, <br/> ] <br/> - service_id: Sản phẩm <br/>- quantity: Số lượng <br/>- source_extend_id: Nguồn mở rộng  | Danh sách sản phẩm |
     | mobile | False | String| | Di động |
     | birth_date | False | Date | | Ngày sinh |
-    | pass_port | False | String | | Chứng minh nhân dân |
     | email_from | False | String | | Email |
     | facebook_acc | False | String | | Tài khoản facebook |
-    | re_open | False | Boolean | | Mở lại |
-    | check_booking | False | Boolean | | Check booking |
-    | medium_id | False | Int | | Kênh trung gian |
-    | fam_ids | False | Mảng | [ <br/> { <br/> 'phone': String, <br/> 'member_name': String, <br/> 'type_relation_id': id, <br/> }, <br/> ] <br/> - phone: Số đi thoại <br/>- member_name: Họ và tên <br/>- type_relation_id: Mối quan hệ | Thông tin người thân |
-    | note | False | Text | | Ghi chú |
-    | special_note | False | Text | | Ghi chú đặc biệt |
     |   |   |   |   |   |
 
 * **Success Response:**

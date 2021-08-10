@@ -31,7 +31,7 @@
   | company_id| integer  | Chi nhánh | x  | Danh sách Chi nhánh |
   | product_ids| integer  | Dịch vụ khiếu nại |   | Danh sách dịch vụ |
   | priority| integer  | Mức độ ưu tiên | x  | 1:Low, 2:Normal, 3:High, 4:Urgent |
-  | content_solution_ids| integer  | Giải pháp | x  | List các nội dung: _Solution Params_ |
+  | content_solution_ids| integer  | Giải pháp |   | List các nội dung: _Solution Params_ |
   | note| string  | Ghi chú |   |  |
   | create_by| integer  | Người tạo case | x  |  |
 

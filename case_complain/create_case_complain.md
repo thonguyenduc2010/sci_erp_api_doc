@@ -26,7 +26,7 @@
   | booking_id| integer  | Mã Booking |   |
   | phone_call_id| integer  | Mã PhoneCall |   |
   | user_id| id  | Người tiếp nhận | x  |   |
-  | stage| integer  | Người tiếp nhận | x  | 1: Need, 2: Processing, 3:Finding more Information, 4:Waiting response, 5:Need to track, 6:Resolved, 7:Complete  |
+  | stage| integer  | Người tiếp nhận | x  | 1: New, 2: Processing, 3:Finding more Information, 4:Waiting response, 5:Need to track, 6:Resolved, 7:Complete  |
   | brand_id| integer  | Thương hiệu | x  | Danh sách Thương hiệu |
   | company_id| integer  | Chi nhánh | x  | Danh sách Chi nhánh |
   | product_ids| integer  | Dịch vụ khiếu nại |   | Danh sách dịch vụ |

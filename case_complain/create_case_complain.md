@@ -3,7 +3,7 @@
  **URL**
     
     7.3.1:Tạo một case khiếu nại
-      /{domain}/api/v1/crm-case
+      /{domain}/api/v1/crm-case/create
     7.3.2Cập nhật case khiếu nại 
       /{domain}/api/v1/crm-case?id={int}
  **Method**

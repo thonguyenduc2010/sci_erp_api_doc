@@ -1,4 +1,4 @@
-***1.1 Danh sách cơ sở***
+***1.2 Danh sách cơ sở***
 ----
   Danh sách tất cả cơ sở của công ty
 
@@ -67,13 +67,13 @@
             "code": false,
             "name": "NHA KHOA PARIS BÌNH DƯƠNG"
         },
+        ...
     ]
 }
     ```
  
 * **Error Response:**
 
-  <_Most endpoints will have many ways they can fail. From unauthorized access, to wrongful parameters etc. All of those should be liste d here. It might seem repetitive, but it helps prevent assumptions from being made where they should be._>
 
   * **Code:** 401 UNAUTHORIZED <br />
     **Content:** `{ error : "Log in" }`
@@ -84,9 +84,26 @@
     **Content:** `{ error : "Email Invalid" }`
 
 * **Sample Call:**
+```
+### Python Requests
 
-  <_Just a sample call to your endpoint in a runnable format ($.ajax call or a curl request) - this makes life easier and more predictable._> 
+import requests
+
+url = "{domain}/api/v1/location"
+
+headers = {
+    'access-token': "access_token_f328d1320ea7760339380651038eb224f4d531d3",
+    'content-type': "application/x-www-form-urlencoded",
+    'charset': "utf-8",
+    'cache-control': "no-cache",
+    'postman-token': "7e663c87-5617-13dd-4670-546bd11ee12c"
+    }
+
+response = requests.request("GET", url, headers=headers)
+
+print(response.text)
+```
 
 * **Notes:**
 
-  <_This is where all uncertainties, commentary, discussion etc. can go. I recommend timestamping and identifying oneself when leaving comments here._> 
+

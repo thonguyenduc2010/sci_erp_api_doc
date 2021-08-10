@@ -57,5 +57,5 @@ Header:
 ### [7.3. Tạo case khiếu nại](https://github.com/thonguyenduc2010/sci_erp_api_doc/blob/main/case_complain/create_case_complain.md)
 
 ## 8. Phiếu đặt cọc
-### [8.1. Danh sách sổ nhật ký](https://github.com/thonguyenduc2010/sci_erp_api_doc/blob/deposit/get_journal_id.md)
-### [8.2. Tạo phiếu đặt cọc](https://github.com/thonguyenduc2010/sci_erp_api_doc/blob/deposit/create_deposit.md)
+### [8.1. Danh sách sổ nhật ký](https://github.com/thonguyenduc2010/sci_erp_api_doc/blob/main/deposit/get_journal_id.md)
+### [8.2. Tạo phiếu đặt cọc](https://github.com/thonguyenduc2010/sci_erp_api_doc/blob/main/deposit/create_deposit.md)

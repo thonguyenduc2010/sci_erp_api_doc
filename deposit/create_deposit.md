@@ -28,7 +28,7 @@
 **Phản hồi thành công:**
 
   * **Code:** 200 <br />
-    **Content:** `{ id : ,}`
+    **Content:** `{ message:'Đã tạo phiếu hóa đơn đặt cọc'}`
   * 
 **Lỗi:**
 

@@ -76,27 +76,29 @@
 
 
   * **Code:** 401 UNAUTHORIZED <br />
-    **Content:** `{ error : "Log in" }`
+    **Content:** 
+    ```
+    {
+      "type": "access_token",
+      "message": "token seems to have expired or invalid"
+    }
 
-  OR
-
-  * **Code:** 422 UNPROCESSABLE ENTRY <br />
-    **Content:** `{ error : "Email Invalid" }`
+    ```
 
 * **Sample Call:**
-```
+``` buildoutcfg
 ### Python Requests
 
 import requests
 
-url = "{domain}/api/v1/location"
+url = "http://localhost:13000/api/v1/location"
 
 headers = {
     'access-token': "access_token_f328d1320ea7760339380651038eb224f4d531d3",
     'content-type': "application/x-www-form-urlencoded",
     'charset': "utf-8",
     'cache-control': "no-cache",
-    'postman-token': "7e663c87-5617-13dd-4670-546bd11ee12c"
+    'postman-token': "e0056f3e-ce5e-3132-b138-44814da66faa"
     }
 
 response = requests.request("GET", url, headers=headers)

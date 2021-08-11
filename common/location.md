@@ -91,7 +91,7 @@
 
 import requests
 
-url = "http://localhost:13000/api/v1/location"
+url = "{domain}/api/v1/location"
 
 headers = {
     'access-token': "access_token_f328d1320ea7760339380651038eb224f4d531d3",

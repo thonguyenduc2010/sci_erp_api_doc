@@ -7,7 +7,7 @@
     
    `GET` Lấy danh sách dịch vụ `/{domain}/api/v1/services`
 
-   `GET` Lấy chi tiết danh sách dịch vụ theo ID `/{domain}/api/v1/services/{id}`
+   `GET` Lấy chi tiết dịch vụ theo ID `/{domain}/api/v1/services/{id}`
 
 
 * **Method:**

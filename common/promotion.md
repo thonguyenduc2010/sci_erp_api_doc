@@ -19,56 +19,101 @@
     {
     "error": 0,
     "message": "Success",
-    "count": 28,
+    "count": 5,
     "data": [
-        {
-            "id": 23,
-            "code": "HH",
-            "name": "BỆNH VIỆN HỒNG HÀ"
-        },
-        {
-            "id": 2,
-            "code": "HN",
-            "name": "BỆNH VIỆN KANGNAM HÀ NỘI"
-        },
-        {
-            "id": 3,
-            "code": "HCM",
-            "name": "BỆNH VIỆN KANGNAM HỒ CHÍ MINH"
-        },
-        {
-            "id": 4,
-            "code": "SG",
-            "name": "BỆNH VIỆN KANGNAM SÀI GÒN"
-        },
-        {
-            "id": 12,
-            "code": false,
-            "name": "BỆNH VIỆN THẨM MỸ ĐÔNG Á HỒ CHÍ MINH"
-        },
-        {
-            "id": 25,
-            "code": false,
-            "name": "HỌC VIỆN THẨM MỸ SCI HÀ NỘI"
-        },
-        {
-            "id": 24,
-            "code": false,
-            "name": "HỌC VIỆN THẨM MỸ SCI HỒ CHÍ MINH"
-        },
-        {
-            "id": 18,
-            "code": false,
-            "name": "NHA KHOA PARIS 3/2"
-        },
-        {
-            "id": 22,
-            "code": false,
-            "name": "NHA KHOA PARIS BÌNH DƯƠNG"
-        },
-        ...
-    ]
-}
+            {
+                "id": 3194,
+                "discount_program": [
+                    75,
+                    "CTKM NHA KHOA"
+                ],
+                "type_product": "product",
+                "product_ids": [
+                    63880,
+                    63881,
+                    63882,
+                    63884,
+                    63890,
+                    63891
+                ],
+                "dc_min_qty": 1,
+                "dc_max_qty": 7,
+                "type_discount": "percent",
+                "discount": 25
+            },
+            {
+                "id": 3195,
+                "discount_program": [
+                    75,
+                    "CTKM NHA KHOA"
+                ],
+                "type_product": "product",
+                "product_ids": [
+                    63880,
+                    63881,
+                    63882,
+                    63884,
+                    63890,
+                    63891
+                ],
+                "dc_min_qty": 8,
+                "dc_max_qty": 15,
+                "type_discount": "percent",
+                "discount": 30
+            },
+            {
+                "id": 3196,
+                "discount_program": [
+                    75,
+                    "CTKM NHA KHOA"
+                ],
+                "type_product": "product",
+                "product_ids": [
+                    63880,
+                    63881,
+                    63882,
+                    63884,
+                    63890
+                ],
+                "dc_min_qty": 16,
+                "dc_max_qty": 99,
+                "type_discount": "percent",
+                "discount": 35
+            },
+            {
+                "id": 3197,
+                "discount_program": [
+                    75,
+                    "CTKM NHA KHOA"
+                ],
+                "type_product": "product",
+                "product_ids": [
+                    63886,
+                    63887,
+                    63888
+                ],
+                "dc_min_qty": 1,
+                "dc_max_qty": 99,
+                "type_discount": "percent",
+                "discount": 45
+            },
+            {
+                "id": 3198,
+                "discount_program": [
+                    75,
+                    "CTKM NHA KHOA"
+                ],
+                "type_product": "product",
+                "product_ids": [
+                    63989
+                ],
+                "dc_min_qty": 1,
+                "dc_max_qty": 1,
+                "type_discount": "percent",
+                "discount": 0
+            }
+        ]
+    }
     ```
  
 * **Error Response:**

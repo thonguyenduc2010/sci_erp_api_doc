@@ -3,9 +3,9 @@
 ----
 
 * **URL**
+
     /{domain}/api/v1/price-list
-  
-  
+
 * **Method:**
 
     `GET`

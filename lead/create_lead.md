@@ -37,6 +37,7 @@
     | email_from | False | String | | Email |
     | facebook_acc | False | String | | Tài khoản facebook |
     | zalo_acc| False | String | | Tàik khoản Zalo |
+    | overseas_vietnamese | False | String | 'no' - No; 'marketing' - Marketing - Overseas Vietnamese; 'branch' - Branch - Overseas Vietnamese | Việt kiều |
     |   |   |   |   |   |
 
 * **Success Response:**

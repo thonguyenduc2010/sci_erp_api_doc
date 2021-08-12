@@ -22,6 +22,7 @@
     | year_of_birth | True | String | | Năm sinh của khách hàng |
     | country_id | True | Int | | Quốc gia |
     | state_id | True | Int | | Tỉnh/ Thành phố |
+    | district_id | False | Int | | Quận/ Huyện |
     | street | True | String | | Địa chỉ chi tiết của khách hàng |
     | stage_id | True | Int | | Giai đoạn |
     | brand_id | True | Int | | Thương hiệu |

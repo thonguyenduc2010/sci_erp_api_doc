@@ -33,7 +33,7 @@
     | campaign_id | True | Int | | Chiến dịch | 
     | crm_line_ids | True | Mảng | [ <br/> { <br/> 'service_id': id, <br/> 'quantity': Int, <br/> 'source_extend_id': id, <br/> }, <br/> ] <br/> - service_id: Sản phẩm <br/>- quantity: Số lượng <br/>- source_extend_id: Nguồn mở rộng  | Danh sách sản phẩm |
     | mobile | False | String| | Di động |
-    | birth_date | False | Date | | Ngày sinh |
+    | birth_date | False | Date | %Y-%m-%d | Ngày sinh |
     | email_from | False | String | | Email |
     | facebook_acc | False | String | | Tài khoản facebook |
     | zalo_acc| False | String | | Tàik khoản Zalo |

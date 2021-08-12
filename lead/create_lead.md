@@ -19,7 +19,6 @@
     | contact_name | True | String | | Tên liên hệ của khách hàng |
     | gender | True | String | 'male' - Nam; 'female' - Nữ; 'other' - Khác | Giới tính của khách hàng |
     | type | True | Sting | 'lead' - Tiềm năng | Loại bản ghi là Lead |
-    | year_of_birth | True | String | | Năm sinh của khách hàng |
     | country_id | True | Int | | Quốc gia |
     | state_id | True | Int | | Tỉnh/ Thành phố |
     | district_id | False | Int | | Quận/ Huyện |

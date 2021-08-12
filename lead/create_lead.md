@@ -36,6 +36,7 @@
     | birth_date | False | Date | | Ngày sinh |
     | email_from | False | String | | Email |
     | facebook_acc | False | String | | Tài khoản facebook |
+    | zalo_acc| False | String | | Tàik khoản Zalo |
     |   |   |   |   |   |
 
 * **Success Response:**

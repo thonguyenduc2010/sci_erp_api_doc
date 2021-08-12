@@ -24,7 +24,7 @@
     | state_id | True | Int | | Tỉnh/ Thành phố |
     | district_id | False | Int | | Quận/ Huyện |
     | street | True | String | | Địa chỉ chi tiết của khách hàng |
-    | stage_id | True | Int | | Giai đoạn |
+    | stage_id | True | Int | | Trạng thái |
     | brand_id | True | Int | | Thương hiệu |
     | company_id | True | Int | | Công ty |
     | price_list_id | True | Int | | Bảng giá |

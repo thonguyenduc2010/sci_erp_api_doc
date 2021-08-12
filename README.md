@@ -24,6 +24,7 @@ Header:
   ### [1.7. Danh sách Phòng ban](https://github.com/thonguyenduc2010/sci_erp_api_doc/blob/main/common/department.md)
   ### [1.8. Danh sách Quốc gia](https://github.com/thonguyenduc2010/sci_erp_api_doc/blob/main/common/countries.md)
   ### [1.9. Danh sách Tỉnh thành](https://github.com/thonguyenduc2010/sci_erp_api_doc/blob/main/common/states.md)
+  ### [1.10.Danh sách Quận huyện](https://github.com/thonguyenduc2010/sci_erp_api_doc/blob/main/common/districts.md)
 
 ## 2. Lead
 ### [2.1. Tạo lead](https://github.com/thonguyenduc2010/sci_erp_api_doc/blob/main/lead/create_lead.md)

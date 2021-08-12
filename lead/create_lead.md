@@ -38,6 +38,7 @@
     | facebook_acc | False | String | | Tài khoản facebook |
     | zalo_acc| False | String | | Tàik khoản Zalo |
     | overseas_vietnamese | False | String | 'no' - No; 'marketing' - Marketing - Overseas Vietnamese; 'branch' - Branch - Overseas Vietnamese | Việt kiều |
+    | work_online | False | Stringg | 'no' - Không; 'yes' - Có | Làm việc online |
     |   |   |   |   |   |
 
 * **Success Response:**

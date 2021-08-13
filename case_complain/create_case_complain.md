@@ -16,8 +16,6 @@
   | Attribute| Type  | Description  |  Required | Note |
   |---|---|---|---|---|
   | name | string  | Tên Case | x  |
-  | complain_group_id| integer  | Nhóm khiếu nại | x  | Danh sách nhóm khiếu nại  _model:crm.complain.group_ |
-  | complain_id| integer  | Nội dung khiếu nại | x  | Danh sách khiếu nại  _model:crm.complain_ |
   | type_case| integer  | Loại case | x  | 1:Complain, 2:Warning |
   | start_date| datetime  | Ngày giờ bắt đầu/tiếp nhận | x  | Mặc định là thời gian hiện tại tại thời điểm tạo case. Định dạng _Y-M-D H:M:S_ |
   | receive_source| integer  | Nguồn tiếp nhận | x  | 1:Call center, 2:Email, 3:Inbox, 4:Directly |
@@ -26,22 +24,28 @@
   | booking_id| integer  | Mã Booking |   |
   | phone_call_id| integer  | Mã PhoneCall |   |
   | user_id| id  | Người tiếp nhận | x  |   |
-  | stage| integer  | Người tiếp nhận | x  | 1: New, 2: Processing, 3:Finding more Information, 4:Waiting response, 5:Need to track, 6:Resolved, 7:Complete  |
   | brand_id| integer  | Thương hiệu | x  | Danh sách Thương hiệu |
   | company_id| integer  | Chi nhánh | x  | Danh sách Chi nhánh |
-  | product_ids| integer  | Dịch vụ khiếu nại |   | Danh sách dịch vụ |
-  | priority| integer  | Mức độ ưu tiên | x  | 1:Low, 2:Normal, 3:High, 4:Urgent |
-  | content_solution_ids| integer  | Giải pháp |   | List các nội dung: _Solution Params_ |
-  | note| string  | Ghi chú |   |  |
+  | crm_content_complain| integer  | Giải pháp |   | List các nội dung: _Solution Params_ |
   | create_by| integer  | Người tạo case | x  |  |
 
 
-  *Solutions Params*
+  *Content Params*
   
   | Attribute  | Method  | Type  | Description  |  Required | Note |
   |---|---|---|---|---|---|
+  | complain_group_id| integer  | Nhóm khiếu nại | x  | Danh sách nhóm khiếu nại  _model:crm.complain.group_ |
+  | complain_id| integer  | Nội dung khiếu nại | x  | Danh sách khiếu nại  _model:crm.complain_ |
+  |department_ids| integer  | Phòng ban | x  | Danh sách phòng ban  _model:hr.employee_ |
+  | stage| integer  | Người tiếp nhận | x  | 1: New, 2: Processing, 3:Finding more Information, 4:Waiting response, 5:Need to track, 6:Resolved, 7:Complete  |
+  | product_ids| integer  | Dịch vụ khiếu nại |   | Danh sách dịch vụ |
+  | priority| integer  | Mức độ ưu tiên | x  | 1:Low, 2:Normal, 3:High, 4:Urgent |
   | desc| string  | Phản ánh khách hàng |   |  |
   | solution| string  | Giải pháp |   |  |
+  | note| string  | Ghi chú |   |  |
+  | brand_sla| string  | SLA Thương hiệu|   |  |
+  | cskh_SLA| string  | SLA CSKH |   |  |
+  | branch_SLA| string  | SLA BV/Chi nhánh |   |  |
 
 * **Phản hồi thành công:**
 

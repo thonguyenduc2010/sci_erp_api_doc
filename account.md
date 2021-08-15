@@ -17,7 +17,7 @@
    **Required:**
  
     | Tham số  | Tính bắt buộc  | Kiểu dữ liệu  | Mô tả  |
-    |---|---|---|---|---|
+    |---|---|---|---|
     | phone | yes  | string  | Số điện thoại của khách hàng  |
 
 

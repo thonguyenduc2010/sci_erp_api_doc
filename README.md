@@ -38,7 +38,6 @@ Header:
 ### 3.5. Danh sách "Giai đoạn"
 ### 3.6 Danh sách "Nhóm nguồn"
 ### 3.7. Danh sách "Nguồn"
-### 3.8. Danh sách "Nguồn mở rộng"
 
 ## 4. Account
   * [4.1. Lấy thông tin 1 khách hàng](https://github.com/thonguyenduc2010/sci_erp_api_doc/blob/main/account.md)

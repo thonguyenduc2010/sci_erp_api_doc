@@ -2,7 +2,7 @@
 ----
 * **URL**
 
-    /{domain}/api/v1/booking/canculate-price
+    /{domain}/api/v1/booking/calculate-price
     
  **Method**
 

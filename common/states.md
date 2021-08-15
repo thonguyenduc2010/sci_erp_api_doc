@@ -12,6 +12,13 @@
   
 *  **URL Params**
 
+    | Tham số  | Tính bắt buộc  | Kiểu dữ liệu  | Mô tả  |
+    |---|---|---|---|
+    | country_id | yes  | Integer  | Id của quốc gia  |
+    | limit | no  | Integer  | Số lượng bản ghi  |
+    | offset | no  | Integer  | Thứ tự bản ghi được lấy  |
+    
+
 * **Success Response:**
   
     * **Code:** 200 <br />

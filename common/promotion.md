@@ -10,9 +10,15 @@
     `GET`
 
 * **Url Params**
+  | Attribute| Type | Description |
+  |---|---|---|
+  | id | string  | ID chương trình khuyến mại |
+
 
 * **Success Response:**
-  
+
+    Kết quả trả về theo thương hiệu (Brand) của user gọi API
+ 
   * **Code:** 200 <br />
     **Content:** 
     ```

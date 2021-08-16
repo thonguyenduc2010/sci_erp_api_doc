@@ -21,7 +21,6 @@
   | Attribute| Type | Description |
   |---|---|---|
   | id | string  | Danh sách dịch vụ của ID |
-  | brand | boolean  | Có/Không lọc theo thương hiệu |
 
 
 * **Success Response:**

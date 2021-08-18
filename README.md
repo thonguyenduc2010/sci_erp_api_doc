@@ -26,7 +26,9 @@ Header:
   ### [1.9. Danh sách Tỉnh thành](https://github.com/thonguyenduc2010/sci_erp_api_doc/blob/main/common/states.md)
   ### [1.10.Danh sách Quận huyện](https://github.com/thonguyenduc2010/sci_erp_api_doc/blob/main/common/districts.md)
   ### 1.11. Danh sách Trạng thái
-
+  ### 1.12. Danh sách Nhóm nguồn
+  ### 1.13. Danh sách Nguồn
+  
 ## 2. Lead
 ### [2.1. Tạo lead](https://github.com/thonguyenduc2010/sci_erp_api_doc/blob/main/lead/create_lead.md)
 ### [2.2. Cập nhật lead](https://github.com/thonguyenduc2010/sci_erp_api_doc/blob/main/lead/update_lead.md)
@@ -36,8 +38,6 @@ Header:
 ### [3.2. Tạo booking](https://github.com/thonguyenduc2010/sci_erp_api_doc/blob/main/booking/create_booking.md)
 ### [3.3. Cập nhật booking](https://github.com/thonguyenduc2010/sci_erp_api_doc/blob/main/booking/update_booking.md)
 ### [3.4. Lấy thông tin booking qua ID booking](https://github.com/thonguyenduc2010/sci_erp_api_doc/blob/main/booking/get_booking_by_id.md)
-### 3.5. Danh sách "Nhóm nguồn"
-### 3.6. Danh sách "Nguồn"
 
 ## 4. Account
   * [4.1. Lấy thông tin 1 khách hàng](https://github.com/thonguyenduc2010/sci_erp_api_doc/blob/main/account.md)

@@ -45,7 +45,8 @@
     
     - Đối với crm_line_ids, khi cập nhật cần có id line dịch vụ và kiểu update
     - Bảng mã update dịch vụ:
-    | Attribute  | Require  | Type  | Note | Description |
+     *
+     | Attribute  | Require  | Type  | Note | Description |
     |---|---|---|---| ---|
     | phone | True  | String  | | Số điện thoại của khách hàng |
     | contact_name | True | String | | Tên liên hệ của khách hàng |

@@ -12,7 +12,7 @@
   
 *  BODY
 
-   /{domain}/api/v1/lead/{id}
+   /{domain}/api/v1/booking/{id}
       | Attribute  | Require  | Type  | Note | Description |
     |---|---|---|---| ---|
     | phone | True  | String  | | Số điện thoại của khách hàng |

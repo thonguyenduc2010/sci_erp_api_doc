@@ -29,7 +29,7 @@
     | category_source_id | True | Int | | Nhóm nguồn |
     | source_id | True | Int | | Nguồn |
     | campaign_id | True | Int | | Chiến dịch | 
-    | crm_line_ids | True | Mảng | [ <br/> { <br/> 'service_id': id, <br/> 'quantity': Int, <br/> 'source_extend_id': id, <br/> }, <br/> ] <br/> - service_id: Sản phẩm <br/>- quantity: Số lượng <br/>- source_extend_id: Nguồn mở rộng  | Danh sách sản phẩm |
+    | crm_line_ids | True | Mảng | [ <br/> { <br/>'id': id,'type_update': int 'service_id': id, <br/> 'quantity': Int, <br/> 'source_extend_id': id, <br/> }, <br/> ] | Danh sách sản phẩm |
     | mobile | False | String| | Di động |
     | birth_date | False | Date | %Y-%m-%d | Ngày sinh |
     | email_from | False | String | | Email |

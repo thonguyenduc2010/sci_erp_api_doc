@@ -19,9 +19,15 @@
 * **Phản hồi thành công:**
 
   * **Code:** 200 <br />
-    **Content:** `{ price : ,
-    price_total: 
-    }`
+    **Content:** `{
+        'price_total': price_total - tổng giá,
+        'crm_line_ids':[
+                            {
+                            'ordinal_numbers': số thứ tự,
+                            'amount_after_discount': giá line dịch vụ sau khi giảm giá,
+                            }
+                        ]
+        }`
  
 * **Lỗi:**
     

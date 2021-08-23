@@ -29,7 +29,7 @@
     | category_source_id | True | Int | | Nhóm nguồn |
     | source_id | True | Int | | Nguồn |
     | campaign_id | True | Int | | Chiến dịch | 
-    | crm_line_ids | True | Mảng | [ <br/> { <br/>'id': id,'type_update': int 'service_id': id, <br/> 'quantity': Int, <br/> 'source_extend_id': id, <br/> }, <br/> ] | Danh sách sản phẩm |
+    | crm_line_ids | True | Mảng |  | Danh sách sản phẩm |
     | mobile | False | String| | Di động |
     | birth_date | False | Date | %Y-%m-%d | Ngày sinh |
     | email_from | False | String | | Email |
@@ -42,6 +42,13 @@
     | online_counseling | False | String | 'no' - Không; 'yes' - Có | Tư vấn trực tuyến |
     | shuttle_bus | False | String | 'no' - Không; 'yes' - Có | Xe đưa đón |
     |   |   |   |   |   |
+    
+    * Đối với crm_line_ids, khi cập nhật cần có id line dịch vụ và kiểu update
+    * Bảng mã update dịch vụ:
+    | Kiểu update | Mã | Ghi chú | Ví dụ |
+    | --- | --- | --- | --- |
+    | Xoá | 0 | - Khi xoá dịch vụ chỉ yêu cầu id line dịch vụ tương ứng | [{'id':21506 ,'type_update': 0,}] |
+    | | | | |
 
 * **Success Response:**
   

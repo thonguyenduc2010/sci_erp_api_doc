@@ -13,7 +13,7 @@
 *  BODY
 
    /{domain}/api/v1/lead/{id}
-     | Attribute  | Require  | Type  | Note | Description |
+      | Attribute  | Require  | Type  | Note | Description |
     |---|---|---|---| ---|
     | phone | True  | String  | | Số điện thoại của khách hàng |
     | contact_name | True | String | | Tên liên hệ của khách hàng |
@@ -29,7 +29,7 @@
     | category_source_id | True | Int | | Nhóm nguồn |
     | source_id | True | Int | | Nguồn |
     | campaign_id | True | Int | | Chiến dịch | 
-    | crm_line_ids | True | Mảng |  | Danh sách sản phẩm |
+    | crm_line_ids | True | Mảng | | Danh sách sản phẩm |
     | mobile | False | String| | Di động |
     | birth_date | False | Date | %Y-%m-%d | Ngày sinh |
     | email_from | False | String | | Email |
@@ -38,7 +38,8 @@
     | send_info_facebook | False | String | no' - Không; 'yes' - Có | Gửi thông tin Facebook |
     | send_info_zalo | False | String | no' - Không; 'yes' - Có | Gửi thông tin Zalo |
     | overseas_vietnamese | False | String | 'no' - No; 'marketing' - Marketing - Overseas Vietnamese; 'branch' - Branch - Overseas Vietnamese | Việt kiều |
-    | work_online | False | String | 'no' - Không; 'yes' - Có | Làm việc online |
+    | work_online | False | Stringg | 'no' - Không; 'yes' - Có | Làm việc online |
+    | booking_date | True | Date | %Y-%m-%d | Ngày hẹn lịch |
     | online_counseling | False | String | 'no' - Không; 'yes' - Có | Tư vấn trực tuyến |
     | shuttle_bus | False | String | 'no' - Không; 'yes' - Có | Xe đưa đón |
     |   |   |   |   |   |
@@ -60,27 +61,27 @@
   * **Code:** 200 <br />
     **Content:** 
     ```buildoutcfg 
-    {
+   {
     "error": 0,
     "message": "Success",
     "data": {
-        "id": 818635,
-        "name": "Nguyễn Văn A",
+        "id": 818637,
+        "name": "Book-687631",
         "contact_name": "Nguyễn Văn A",
         "gender": "male",
         "pass_port": false,
-        "phone": "0123456789",
-        "mobile": "0123456789",
-        "birth_date": "1999-06-02",
-        "year_of_birth": "1999",
-        "email_from": "sondoan026@gmail.com",
+        "phone": "012345691111",
+        "mobile": "01234567890",
+        "birth_date": false,
+        "year_of_birth": false,
+        "email_from": "test@gmail.com",
         "country_id": 1,
         "country_name": "Andorra",
-        "state_id": 7,
-        "state_name": "Victoria",
+        "state_id": 1,
+        "state_name": "Australian Capital Territory",
         "district_id": false,
         "district_name": false,
-        "street": "11 Tô Vĩnh Diện",
+        "street": false,
         "company_id": 2,
         "company_name": "BỆNH VIỆN KANGNAM HÀ NỘI",
         "facebook_acc": "Nguyễn Văn A",
@@ -97,13 +98,14 @@
         "work_online": "no",
         "online_counseling": "no",
         "shuttle_bus": "no",
-        "campaign_id": 21,
-        "campaign_name": "sss",
+        "campaign_id": 22,
+        "campaign_name": "aaa",
         "amount_total": 220000000.0,
-        "create_on": "23-08-2021 03:13:48",
+        "create_on": "23-08-2021 08:37:28",
+        "booking_date": "23-08-2021 00:00:00",
         "crm_line_ids": [
             {
-                "id": 21511,
+                "id": 21515,
                 "service_id": 5562,
                 "service_name": "Combo Chỉnh hàm hô móm 2 hàm + Trượt cằm",
                 "quantity": 1,
@@ -113,7 +115,7 @@
                 "total_after_discount": 0
             },
             {
-                "id": 21512,
+                "id": 21516,
                 "service_id": 2282,
                 "service_name": "Xóa hình xăm có sẹo  - Mức 10 (>700cm) (Giá tính trên hình)",
                 "quantity": 1,

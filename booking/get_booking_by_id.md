@@ -5,7 +5,7 @@
 * **URL**
 
   /{domain}/api/v1/booking/{id} <br/>
-  /{domain}/api/v1/booking/search?code={CODE}
+  /{domain}/api/v1/booking/{name}
 * **Method:**
   
   `GET`
@@ -13,7 +13,7 @@
 *  **URL Params**
 
    /{domain}/api/v1/booking/1 <br/>
-   /{domain}/api/v1/booking/search?code='KN0001'
+   /{domain}/api/v1/booking/Book-687629
    
 
 * **Success Response:**

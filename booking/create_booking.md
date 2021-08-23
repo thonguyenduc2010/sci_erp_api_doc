@@ -119,7 +119,7 @@
     }
  
 * **Error Response:**
- - Đối với khách hàng có Booking còn hiệu lực thì không được phép tạo mới Booking cho khách hàng đó và phải vào Booking vẫn còn hiệu lực đó để thao tác tiếp
+    - Đối với khách hàng có Booking còn hiệu lực thì không được phép tạo mới Booking cho khách hàng đó và phải vào Booking vẫn còn hiệu lực đó để thao tác tiếp
 
     **Code:** 401 UNAUTHORIZED <br />
     **Content:**

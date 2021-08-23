@@ -1,21 +1,17 @@
-***Lấy thông tin Booking***
+***Lấy thông tin Lead***
 ----
  Lấy thông tin 1 Booking
 
 * **URL**
-  - Lấy thông tin Booking qua ID Booking: <br/>
-   /{domain}/api/v1/booking/{id} <br/>
-  - Lấy thông tin Booking qua mã Booking: <br/>
-  /{domain}/api/v1/booking/{name}
+  - Lấy thông tin Lead qua ID Lead: <br/>
+   /{domain}/api/v1/lead/{id} <br/>
 * **Method:**
   
   `GET`
   
 *  **URL Params**
 
-   /{domain}/api/v1/booking/1 <br/>
-   /{domain}/api/v1/booking/Book-687629
-   
+   /{domain}/api/v1/booking/1
 
 * **Success Response:**
   

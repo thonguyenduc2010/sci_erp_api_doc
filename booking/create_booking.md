@@ -125,11 +125,19 @@
     {
     "type": "Không thể tạo Booking mới do còn Booking vẫn còn hiêu lực",
     "message": "Hãy vào Booking có mã Book-687631 của thương hiệu Kangnam để thao tác tiếp"}
+    
+ OR
+     * **Code:** 401 UNAUTHORIZED <br />
+    **Content:** 
+    ```
+    {
+      "type": "access_token",
+      "message": "token seems to have expired or invalid"
+    }
+
+    ```
 
 * **Sample Call:**
 
-  <_Just a sample call to your endpoint in a runnable format ($.ajax call or a curl request) - this makes life easier and more predictable._> 
 
 * **Notes:**
-
-  <_This is where all uncertainties, commentary, discussion etc. can go. I recommend timestamping and identifying oneself when leaving comments here._> 

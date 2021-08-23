@@ -13,13 +13,8 @@
   
   | Attribute| Type  | Description  |  Required | Note |
   |---|---|---|---|---|
-  | phone| string  | Điện thoại | x  | Số điện thoại Khách hàng |
-  | price_list_id| integer  | Bảng giá | x  | |
-  | service_ids | integer  | Dịch vụ | x  | Danh sách dịch vụ |
-  | quantity | integer  | Số lượng | x  | Số lượng tương ứng đối với từng dịch vụ |
-  | crm_discount_program| integer  | Chương trình khuyến mại |  | Danh sách Chương trình khuyến mại |
-  | price| float  | Giá |  | Giá tạm tính từng dịch vụ _Trả về từ ERP_|
-  | price_total| float  | Tổng giá |  | Tổng giá tạm tính _Trả về từ ERP_|
+  | crm_line_ids| Mảng  | Danh sách dịch vụ (Được đánh số thứ tự) | x | [ <br/> { <br/> 'ordinal_numbers': 1,,<br/> 'service_id': id, <br/> 'quantity': Int, <br/> }, <br/> { <br/> 'ordinal_numbers': 2,,<br/> 'service_id': id, <br/> 'quantity': Int, <br/> } ] <br/> - ordinal_numbers: STT <br/> - service_id: Sản phẩm <br/>- quantity: Số lượng <br/>- source_extend_id: Nguồn mở rộng   |
+  | crm_discount_program| integer  | Chương trình khuyến mại | x | Danh sách Chương trình khuyến mại |
 
 * **Phản hồi thành công:**
 

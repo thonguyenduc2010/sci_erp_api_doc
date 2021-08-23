@@ -48,7 +48,9 @@
      *
      | Kiểu update  | Mã  | Ghi chú  | Ví dụ |
     |---|---|---|---|
-    | Xoá | 0 | - Khi xoá dịch vụ bắt buộc có id của line dịch vụ | [{'id':21506 ,'type_update': 0,}] |
+    | Xoá | 0 | - Khi xoá dịch vụ bắt buộc có id của line dịch vụ | [{'id': id_line ,'type_update': 0,}] |
+    | Sửa | 1 | - Khi cập nhật thông tin trên line dịch vụ bắt buộc có: id line dịch vụ và id dịch vụ; cùng các thông tin thay đổi | [{‘id’: id_line,'service_id': id_service,'type_update': 1, 'quantity': 3,}]|
+    | Thêm | 2 | - Khi thêm line dịch vụ mới bắt buộc có: id dịch vụ thêm mới; cùng các thông tin liên quan | [{‘service_id': id_service,'type_update': 2, 'quantity': 4,'source_extend_id': id_source}] |
     |   |   |   |   |   |
 
 * **Success Response:**

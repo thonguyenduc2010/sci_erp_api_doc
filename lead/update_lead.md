@@ -45,7 +45,7 @@
     
     - Đối với crm_line_ids, khi cập nhật cần có id line dịch vụ và kiểu update
     - Bảng mã update dịch vụ:
-     *
+     
      | Kiểu update  | Mã  | Ghi chú  | Ví dụ |
     |---|---|---|---|
     | Xoá | 0 | - Khi xoá dịch vụ bắt buộc có id của line dịch vụ | [{'id': id_line ,'type_update': 0,}] |

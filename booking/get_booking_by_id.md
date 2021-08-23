@@ -1,10 +1,11 @@
-***Lấy thông tin booking từ ID***
+***Lấy thông tin Booking***
 ----
- Lấy thông tin 1 booking với ID
+ Lấy thông tin 1 Booking
 
 * **URL**
-
-  /{domain}/api/v1/booking/{id} <br/>
+  - Lấy thông tin Booking qua ID Booking:
+   /{domain}/api/v1/booking/{id} <br/>
+  - Lấy thông tin Booking qua mã Booking
   /{domain}/api/v1/booking/{name}
 * **Method:**
   

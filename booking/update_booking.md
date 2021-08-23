@@ -60,8 +60,8 @@
 
   * **Code:** 200 <br />
     **Content:** 
-    ```buildoutcfg 
-   {
+     ```buildoutcfg 
+    {
     "error": 0,
     "message": "Success",
     "data": {
@@ -133,11 +133,6 @@
 
   * **Code:** 401 UNAUTHORIZED <br />
     **Content:** `{ error : "Log in" }`
-
-  OR
-
-  * **Code:** 422 UNPROCESSABLE ENTRY <br />
-    **Content:** `{ error : "Email Invalid" }`
 
 * **Sample Call:**
 

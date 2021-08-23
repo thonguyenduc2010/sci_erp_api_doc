@@ -1,6 +1,6 @@
 ***Cập nhật Booking***
 ----
- Cập nhật thông tin Lead
+ Cập nhật thông tin Booking
 
 * **URL**
 
@@ -129,15 +129,7 @@
  
 * **Error Response:**
 
-    **Code:** 401 UNAUTHORIZED <br />
-    **Content:**
-    ```buildoutcfg 
-    {
-    "type": "Không thể tạo Booking mới do còn Booking vẫn còn hiêu lực",
-    "message": "Hãy vào Booking có mã Book-687631 của thương hiệu Kangnam để thao tác tiếp"}
-    
- OR <br/>
-     * **Code:** 401 UNAUTHORIZED <br />
+  * **Code:** 401 UNAUTHORIZED <br />
     **Content:** 
     ```
     {

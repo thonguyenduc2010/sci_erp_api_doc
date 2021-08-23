@@ -3,9 +3,9 @@
  Lấy thông tin 1 Booking
 
 * **URL**
-  - Lấy thông tin Booking qua ID Booking:
+  - Lấy thông tin Booking qua ID Booking: <br/>
    /{domain}/api/v1/booking/{id} <br/>
-  - Lấy thông tin Booking qua mã Booking
+  - Lấy thông tin Booking qua mã Booking: <br/>
   /{domain}/api/v1/booking/{name}
 * **Method:**
   

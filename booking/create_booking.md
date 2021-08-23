@@ -126,7 +126,7 @@
     "type": "Không thể tạo Booking mới do còn Booking vẫn còn hiêu lực",
     "message": "Hãy vào Booking có mã Book-687631 của thương hiệu Kangnam để thao tác tiếp"}
     
- OR
+ OR <br/>
      * **Code:** 401 UNAUTHORIZED <br />
     **Content:** 
     ```

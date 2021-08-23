@@ -6,7 +6,7 @@
   - Lấy thông tin Booking qua ID Booking: <br/>
    /{domain}/api/v1/booking/{id} <br/>
   - Lấy thông tin Booking qua mã Booking: <br/>
-  /{domain}/api/v1/booking/{name}
+  /{domain}/api/v1/booking-name/{name}
 * **Method:**
   
   `GET`

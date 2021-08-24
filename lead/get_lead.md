@@ -1,47 +1,17 @@
-***Tạo Lead***
+***Lấy thông tin Lead***
 ----
- Tạo Lead
+ Lấy thông tin 1 Booking
 
 * **URL**
-
-  /{domain}/api/v1/lead
-
+  - Lấy thông tin Lead qua ID Lead: <br/>
+   /{domain}/api/v1/lead/{id} <br/>
 * **Method:**
   
-  `POST`
+  `GET`
   
-*  **BODY Params**
+*  **URL Params**
 
-   /{domain}/api/v1/lead
-    | Attribute  | Require  | Type  | Note | Description |
-    |---|---|---|---| ---|
-    | phone | True  | String  | | Số điện thoại của khách hàng |
-    | contact_name | True | String | | Tên liên hệ của khách hàng |
-    | gender | True | String | 'male' - Nam; 'female' - Nữ; 'other' - Khác | Giới tính của khách hàng |
-    | country_id | True | Int | | Quốc gia |
-    | state_id | True | Int | | Tỉnh/ Thành phố |
-    | district_id | False | Int | | Quận/ Huyện |
-    | street | True | String | | Địa chỉ chi tiết của khách hàng |
-    | stage_id | True | Int | | Trạng thái |
-    | brand_id | True | Int | | Thương hiệu |
-    | company_id | True | Int | | Công ty |
-    | price_list_id | True | Int | | Bảng giá |
-    | category_source_id | True | Int | | Nhóm nguồn |
-    | source_id | True | Int | | Nguồn |
-    | campaign_id | True | Int | | Chiến dịch | 
-    | crm_line_ids | True | Mảng | [ <br/> { <br/> 'service_id': id, <br/> 'quantity': Int, <br/> 'source_extend_id': id, <br/> }, <br/> ] <br/> - service_id: Sản phẩm <br/>- quantity: Số lượng <br/>- source_extend_id: Nguồn mở rộng  | Danh sách sản phẩm |
-    | mobile | False | String| | Di động |
-    | birth_date | False | Date | %Y-%m-%d | Ngày sinh |
-    | email_from | False | String | | Email |
-    | facebook_acc | False | String | | Tài khoản facebook |
-    | zalo_acc| False | String | | Tàik khoản Zalo |
-    | send_info_facebook | False | String | no' - Không; 'yes' - Có | Gửi thông tin Facebook |
-    | send_info_zalo | False | String | no' - Không; 'yes' - Có | Gửi thông tin Zalo |
-    | overseas_vietnamese | False | String | 'no' - No; 'marketing' - Marketing - Overseas Vietnamese; 'branch' - Branch - Overseas Vietnamese | Việt kiều |
-    | work_online | False | String | 'no' - Không; 'yes' - Có | Làm việc online |
-    | online_counseling | False | String | 'no' - Không; 'yes' - Có | Tư vấn trực tuyến |
-    | shuttle_bus | False | String | 'no' - Không; 'yes' - Có | Xe đưa đón |
-    |   |   |   |   |   |
+   /{domain}/api/v1/booking/1
 
 * **Success Response:**
   
@@ -114,7 +84,6 @@
             }
         ]
     }
- 
 * **Error Response:**
 
   * **Code:** 401 UNAUTHORIZED <br />
@@ -131,4 +100,3 @@
 
 
 * **Notes:**
-

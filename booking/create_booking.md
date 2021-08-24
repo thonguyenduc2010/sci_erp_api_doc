@@ -1,19 +1,19 @@
-***Cập nhật Lead***
+***TẠO BOOKING***
 ----
- Cập nhật thông tin Lead
+ Tạo Booking
 
 * **URL**
 
-  /{domain}/api/v1/lead/{id}
+  /{domain}/api/v1/booking
 
 * **Method:**
   
-  `PUT`
+  `POST`
   
 *  BODY
 
-   /{domain}/api/v1/lead/{id}
-     | Attribute  | Require  | Type  | Note | Description |
+   /{domain}/api/v1/booking
+    | Attribute  | Require  | Type  | Note | Description |
     |---|---|---|---| ---|
     | phone | True  | String  | | Số điện thoại của khách hàng |
     | contact_name | True | String | | Tên liên hệ của khách hàng |
@@ -29,7 +29,7 @@
     | category_source_id | True | Int | | Nhóm nguồn |
     | source_id | True | Int | | Nguồn |
     | campaign_id | True | Int | | Chiến dịch | 
-    | crm_line_ids | True | Mảng |  | Danh sách sản phẩm |
+    | crm_line_ids | True | Mảng | [ <br/> { <br/> 'service_id': id, <br/> 'quantity': Int, <br/> 'source_extend_id': id, <br/> }, <br/> ] <br/> - service_id: Sản phẩm <br/>- quantity: Số lượng <br/>- source_extend_id: Nguồn mở rộng  | Danh sách sản phẩm |
     | mobile | False | String| | Di động |
     | birth_date | False | Date | %Y-%m-%d | Ngày sinh |
     | email_from | False | String | | Email |
@@ -38,49 +38,39 @@
     | send_info_facebook | False | String | no' - Không; 'yes' - Có | Gửi thông tin Facebook |
     | send_info_zalo | False | String | no' - Không; 'yes' - Có | Gửi thông tin Zalo |
     | overseas_vietnamese | False | String | 'no' - No; 'marketing' - Marketing - Overseas Vietnamese; 'branch' - Branch - Overseas Vietnamese | Việt kiều |
-    | work_online | False | String | 'no' - Không; 'yes' - Có | Làm việc online |
+    | work_online | False | Stringg | 'no' - Không; 'yes' - Có | Làm việc online |
+    | booking_date | True | Date | %Y-%m-%d | Ngày hẹn lịch |
     | online_counseling | False | String | 'no' - Không; 'yes' - Có | Tư vấn trực tuyến |
     | shuttle_bus | False | String | 'no' - Không; 'yes' - Có | Xe đưa đón |
     |   |   |   |   |   |
     
-    - Đối với crm_line_ids, khi cập nhật cần có id line dịch vụ và kiểu update
-    - Bảng mã update dịch vụ:
-     
-     | Kiểu update  | Mã  | Ghi chú  | Ví dụ |
-    |---|---|---|---|
-    | Xoá | 0 | - Khi xoá dịch vụ bắt buộc có id của line dịch vụ | [{'id': id_line ,'type_update': 0,}] |
-    | Sửa | 1 | - Khi cập nhật thông tin trên line dịch vụ bắt buộc có: id line dịch vụ và id dịch vụ; cùng các thông tin thay đổi | [{‘id’: id_line,'service_id': id_service,'type_update': 1, 'quantity': 3,}]|
-    | Thêm | 2 | - Khi thêm line dịch vụ mới bắt buộc có: id dịch vụ thêm mới; cùng các thông tin liên quan | [{‘service_id': id_service,'type_update': 2, 'quantity': 4,'source_extend_id': id_source}] |
-    |   |   |   |   |   |
-
+    
 * **Success Response:**
-  
-  <_What should the status code be on success and is there any returned data? This is useful when people need to to know what their callbacks should expect!_>
 
   * **Code:** 200 <br />
-    **Content:** 
-    ```buildoutcfg 
+    **Content:**
+     ```buildoutcfg 
     {
     "error": 0,
     "message": "Success",
     "data": {
-        "id": 818635,
-        "name": "Nguyễn Văn A",
+        "id": 818637,
+        "name": "Book-687631",
         "contact_name": "Nguyễn Văn A",
         "gender": "male",
         "pass_port": false,
-        "phone": "0123456789",
-        "mobile": "0123456789",
-        "birth_date": "1999-06-02",
-        "year_of_birth": "1999",
-        "email_from": "sondoan026@gmail.com",
+        "phone": "012345691111",
+        "mobile": "01234567890",
+        "birth_date": false,
+        "year_of_birth": false,
+        "email_from": "test@gmail.com",
         "country_id": 1,
         "country_name": "Andorra",
-        "state_id": 7,
-        "state_name": "Victoria",
+        "state_id": 1,
+        "state_name": "Australian Capital Territory",
         "district_id": false,
         "district_name": false,
-        "street": "11 Tô Vĩnh Diện",
+        "street": false,
         "company_id": 2,
         "company_name": "BỆNH VIỆN KANGNAM HÀ NỘI",
         "facebook_acc": "Nguyễn Văn A",
@@ -97,13 +87,14 @@
         "work_online": "no",
         "online_counseling": "no",
         "shuttle_bus": "no",
-        "campaign_id": 21,
-        "campaign_name": "sss",
+        "campaign_id": 22,
+        "campaign_name": "aaa",
         "amount_total": 220000000.0,
-        "create_on": "23-08-2021 03:13:48",
+        "create_on": "23-08-2021 08:37:28",
+        "booking_date": "23-08-2021 00:00:00",
         "crm_line_ids": [
             {
-                "id": 21511,
+                "id": 21515,
                 "service_id": 5562,
                 "service_name": "Combo Chỉnh hàm hô móm 2 hàm + Trượt cằm",
                 "quantity": 1,
@@ -113,7 +104,7 @@
                 "total_after_discount": 0
             },
             {
-                "id": 21512,
+                "id": 21516,
                 "service_id": 2282,
                 "service_name": "Xóa hình xăm có sẹo  - Mức 10 (>700cm) (Giá tính trên hình)",
                 "quantity": 1,
@@ -126,8 +117,17 @@
     }
  
 * **Error Response:**
+    - Đối với khách hàng có Booking còn hiệu lực thì không được phép tạo mới Booking cho khách hàng đó và phải vào Booking vẫn còn hiệu lực đó để thao tác tiếp
 
-  * **Code:** 401 UNAUTHORIZED <br />
+    **Code:** 401 UNAUTHORIZED <br />
+    **Content:**
+    ```buildoutcfg 
+    {
+    "type": "Không thể tạo Booking mới do còn Booking vẫn còn hiêu lực",
+    "message": "Hãy vào Booking có mã Book-687631 của thương hiệu Kangnam để thao tác tiếp"}
+    
+ OR <br/>
+     * **Code:** 401 UNAUTHORIZED <br />
     **Content:** 
     ```
     {

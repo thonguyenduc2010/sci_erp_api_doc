@@ -1,6 +1,7 @@
 
 ***1.2 Danh sách dịch vụ***
 ----
+Trả về thông tin sản phẩm, dịch vụ của một bảng giá
 
 * **URL**
 

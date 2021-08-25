@@ -1,7 +1,7 @@
 
 *** 1.5 Danh bảng giá ***
 ----
-
+Trả về danh sách bảng giá thuộc thương hiệu (brand) mà token key gọi API
 * **URL**
 
     `GET` Danh sách bảng giá: 

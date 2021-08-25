@@ -1,6 +1,6 @@
 ***1.2 Danh sách cơ sở***
 ----
-  Danh sách tất cả cơ sở của công ty
+  Danh sách tất cả cơ sở của công ty (company) thuộc thương hiệu (brand) mà token key gọi API
 
 * **URL**
 

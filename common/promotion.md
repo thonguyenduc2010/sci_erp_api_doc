@@ -5,7 +5,7 @@
 
 * **URL**
     /{domain}/api/v1/promotion
-  ***Lấy danh sách chương trình khuyến mại theo thương hiệu và chi nhánh.***
+***Lấy danh sách chương trình khuyến mại theo thương hiệu và chi nhánh.***
 * **Method:**
 
     `GET`
@@ -32,72 +32,56 @@
             "id": 63,
             "code": "CTKM_KN_ALL_20217_1",
             "name": "CTKM Tháng 7",
-            "campaign": [
-                {
-                    "id": 32,
-                    "name": "Test CTKM"
-                }
-            ],
-            "brand": [
-                {
-                    "id": 1,
-                    "name": "Kangnam"
-                }
-            ],
+            "campaign": {
+                "id": 32,
+                "name": "Test CTKM"
+            },
+            "brand": {
+                "id": 1,
+                "name": "Kangnam"
+            },
             "company": []
         },
         {
             "id": 64,
             "code": "CTKM_KN_ALL_20217_2",
             "name": "KN - ĐẸP CHẤT HÀN QUỐC",
-            "campaign": [
-                {
-                    "id": 21,
-                    "name": "Tháng triển khai CRM"
-                }
-            ],
-            "brand": [
-                {
-                    "id": 1,
-                    "name": "Kangnam"
-                }
-            ],
+            "campaign": {
+                "id": 21,
+                "name": "Tháng triển khai CRM"
+            },
+            "brand": {
+                "id": 1,
+                "name": "Kangnam"
+            },
             "company": []
         },
         {
             "id": 65,
             "code": "CTKM_KN_ALL_20217_4",
             "name": "CTKM Test 001",
-            "campaign": [
-                {
-                    "id": 21,
-                    "name": "Tháng triển khai CRM"
-                }
-            ],
-            "brand": [
-                {
-                    "id": 1,
-                    "name": "Kangnam"
-                }
-            ],
+            "campaign": {
+                "id": 21,
+                "name": "Tháng triển khai CRM"
+            },
+            "brand": {
+                "id": 1,
+                "name": "Kangnam"
+            },
             "company": []
         },
         {
             "id": 67,
             "code": "CTKM_KN_ALL_20217_4",
             "name": "CTKM ĐẸP CHẤT HÀN QUỐC LẦN 4",
-            "campaign": [
-                {
-                    "id": 32,
-                    "name": "Test CTKM"
-                }
-            ],
-            "brand": [
-                {
-                    "id": 1,
-                    "name": "Kangnam"
-                }
-            ],
+            "campaign": {
+                "id": 32,
+                "name": "Test CTKM"
+            },
+            "brand": {
+                "id": 1,
+                "name": "Kangnam"
+            },
             "company": []
         }
     ]

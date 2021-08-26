@@ -40,6 +40,8 @@
         "state_name": "Hà Nội",
         "contact_address": "16 ngõ 71 phố Tân Ấp, Ba Đình\n\n\nHà Nội Việt Nam",
         "email": "nguyenhuulinhbk@gmail.com",
+        "phone": "0387548453",
+        "mobile": "0979859580",
         "birth_date": "1990-09-09",
         "year_of_birth": "1990",
         "age": 31,
@@ -55,60 +57,92 @@
             {
                 "id": 818567,
                 "name": "Book-687598",
-                "booking_date": "2021-08-09 08:11:13"
+                "stage": "Xác nhận",
+                "create_on": "2021-08-09 08:11:37",
+                "link_detail": "https://scisoftware.xyz/web#id=818567&model=crm.lead&view_type=form&action=631&menu_id=430"
             },
             {
                 "id": 818538,
                 "name": "Book-687584",
-                "booking_date": "2021-08-15 01:34:39"
+                "stage": "Out sold",
+                "create_on": "2021-08-09 01:34:53",
+                "link_detail": "https://scisoftware.xyz/web#id=818538&model=crm.lead&view_type=form&action=631&menu_id=430"
             },
             {
                 "id": 818105,
                 "name": "Book-687358",
-                "booking_date": "2021-07-14 17:00:00"
+                "stage": "Xác nhận",
+                "create_on": "2021-07-15 08:20:54",
+                "link_detail": "https://scisoftware.xyz/web#id=818105&model=crm.lead&view_type=form&action=631&menu_id=430"
             },
             {
                 "id": 817480,
                 "name": "Book-687099",
-                "booking_date": "2021-05-27 03:41:49"
+                "stage": "Thành công",
+                "create_on": "2021-06-23 02:59:14",
+                "link_detail": "https://scisoftware.xyz/web#id=817480&model=crm.lead&view_type=form&action=631&menu_id=430"
             },
             {
                 "id": 817353,
                 "name": "Book-687041",
-                "booking_date": "2021-06-20 01:55:14"
+                "stage": "Xác nhận",
+                "create_on": "2021-06-19 01:55:54",
+                "link_detail": "https://scisoftware.xyz/web#id=817353&model=crm.lead&view_type=form&action=631&menu_id=430"
             },
             {
                 "id": 817352,
                 "name": "Book-687040",
-                "booking_date": "2021-06-19 01:36:07"
+                "stage": "Thành công",
+                "create_on": "2021-06-19 01:36:15",
+                "link_detail": "https://scisoftware.xyz/web#id=817352&model=crm.lead&view_type=form&action=631&menu_id=430"
             },
             {
                 "id": 817315,
                 "name": "Book-687023",
-                "booking_date": "2021-06-17 10:09:16"
+                "stage": "Thành công",
+                "create_on": "2021-06-17 10:09:30",
+                "link_detail": "https://scisoftware.xyz/web#id=817315&model=crm.lead&view_type=form&action=631&menu_id=430"
             },
             {
                 "id": 817306,
                 "name": "Book-687019",
-                "booking_date": "2021-06-30 03:03:26"
+                "stage": "Thành công",
+                "create_on": "2021-06-17 03:03:42",
+                "link_detail": "https://scisoftware.xyz/web#id=817306&model=crm.lead&view_type=form&action=631&menu_id=430"
             },
             {
                 "id": 817302,
                 "name": "Book-687017",
-                "booking_date": "2021-06-17 04:13:22"
+                "stage": "Thành công",
+                "create_on": "2021-06-17 02:34:13",
+                "link_detail": "https://scisoftware.xyz/web#id=817302&model=crm.lead&view_type=form&action=631&menu_id=430"
             },
             {
                 "id": 817296,
                 "name": "Book-687014",
-                "booking_date": "2021-06-17 02:13:00"
+                "stage": "Chưa xác nhận",
+                "create_on": "2021-06-17 02:13:06",
+                "link_detail": "https://scisoftware.xyz/web#id=817296&model=crm.lead&view_type=form&action=631&menu_id=430"
             },
             {
                 "id": 817286,
                 "name": "Book-687009",
-                "booking_date": "2021-06-16 10:05:39"
+                "stage": "Xác nhận",
+                "create_on": "2021-06-16 10:05:48",
+                "link_detail": "https://scisoftware.xyz/web#id=817286&model=crm.lead&view_type=form&action=631&menu_id=430"
             }
         ],
-        "cases": [],
+        "cases": [
+            {
+                "id": 17,
+                "code": "CAS-000017",
+                "name": "KH Phản ánh nhân viên phòng Laser",
+                "user_id": 816,
+                "user_name": "Bác sĩ Laser",
+                "create_on": "2021-08-22 21:43:30",
+                "write_date": "2021-08-23 08:34:49"
+            }
+        ],
         "examinations": [
             {
                 "id": 8521,
@@ -120,7 +154,8 @@
                     "Phẫu thuật chỉnh hàm hô móm kết hợp niềng răng mức 1",
                     "Răng sứ Venus gắn trên răng sứ cố định",
                     "Trụ Implant Korea chất lượng (Dentium)"
-                ]
+                ],
+                "link_detail": "https://scisoftware.xyz/web#id=8521&model=sh.medical.appointment.register.walkin&view_type=form&action=801&menu_id=533"
             },
             {
                 "id": 8297,
@@ -130,7 +165,8 @@
                 "department_name": "Phòng Khám Laser",
                 "services": [
                     "Điều trị nám bằng Picosure Mức 2"
-                ]
+                ],
+                "link_detail": "https://scisoftware.xyz/web#id=8297&model=sh.medical.appointment.register.walkin&view_type=form&action=801&menu_id=533"
             },
             {
                 "id": 8288,
@@ -140,7 +176,8 @@
                 "department_name": "Phòng Khám Laser",
                 "services": [
                     "Điều trị nám bằng Picosure Mức 2"
-                ]
+                ],
+                "link_detail": "https://scisoftware.xyz/web#id=8288&model=sh.medical.appointment.register.walkin&view_type=form&action=801&menu_id=533"
             },
             {
                 "id": 8201,
@@ -150,7 +187,8 @@
                 "department_name": "Phòng Khám Laser",
                 "services": [
                     "Điều trị nám bằng Laser Toning Mức 1"
-                ]
+                ],
+                "link_detail": "https://scisoftware.xyz/web#id=8201&model=sh.medical.appointment.register.walkin&view_type=form&action=801&menu_id=533"
             },
             {
                 "id": 8170,
@@ -161,7 +199,8 @@
                 "services": [
                     "Điều trị nám bằng Laser Toning Mức 1",
                     "Điều trị nám bằng Picosure Mức 2"
-                ]
+                ],
+                "link_detail": "https://scisoftware.xyz/web#id=8170&model=sh.medical.appointment.register.walkin&view_type=form&action=801&menu_id=533"
             },
             {
                 "id": 8168,
@@ -171,7 +210,8 @@
                 "department_name": "Phòng Khám PTTM",
                 "services": [
                     "Cấy mỡ 1 vùng má/ Thái dương/ Rãnh mũi má/ Môi trên/ Môi dưới/ Môi lớn +bé"
-                ]
+                ],
+                "link_detail": "https://scisoftware.xyz/web#id=8168&model=sh.medical.appointment.register.walkin&view_type=form&action=801&menu_id=533"
             },
             {
                 "id": 8162,
@@ -181,7 +221,8 @@
                 "department_name": "Phòng Khám Laser",
                 "services": [
                     "Trị sẹo bằng Laser mức 1 - 1 vùng"
-                ]
+                ],
+                "link_detail": "https://scisoftware.xyz/web#id=8162&model=sh.medical.appointment.register.walkin&view_type=form&action=801&menu_id=533"
             },
             {
                 "id": 8156,
@@ -191,7 +232,8 @@
                 "department_name": "Phòng Khám Răng Hàm Mặt",
                 "services": [
                     "Phẫu thuật chỉnh hàm hô móm kết hợp niềng răng mức 1"
-                ]
+                ],
+                "link_detail": "https://scisoftware.xyz/web#id=8156&model=sh.medical.appointment.register.walkin&view_type=form&action=801&menu_id=533"
             }
         ],
         "loyalty_cards": [
@@ -205,8 +247,26 @@
             }
         ],
         "customer_personas": {
-            "desires": [],
-            "pain_point": []
+            "desires": [
+                {
+                    "id": 7,
+                    "name": "Nhân viên quan tâm, tư vấn nhiệt tình"
+                },
+                {
+                    "id": 8,
+                    "name": "Nghỉ lại sau phẫu thuật"
+                },
+                {
+                    "id": 9,
+                    "name": "Nhận nhiều ưu đãi"
+                }
+            ],
+            "pain_point": [
+                {
+                    "id": 6,
+                    "name": "Sợ bị đau"
+                }
+            ]
         },
         "orders": [
             {

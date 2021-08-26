@@ -1,5 +1,6 @@
 
-***1.4 Danh sách khuyến mại***
+***1.4 Chương trình khuyến mại***
+Lấy danh sách chương trình khuyến mại theo thương hiệu và chi nhánh.
 ----
 
 * **URL**
@@ -12,7 +13,7 @@
 * **Url Params**
   | Attribute| Type | Description |
   |---|---|---|
-  | id | string  | ID chương trình khuyến mại |
+  | company_id | int  | ID chi nhánh |
 
 
 * **Success Response:**
@@ -22,104 +23,84 @@
   * **Code:** 200 <br />
     **Content:** 
     ```
-    {
-    "error": 0,
+   "error": 0,
     "message": "Success",
-    "count": 5,
+    "count": 4,
     "data": [
-            {
-                "id": 3194,
-                "discount_program": [
-                    75,
-                    "CTKM NHA KHOA"
-                ],
-                "type_product": "product",
-                "product_ids": [
-                    63880,
-                    63881,
-                    63882,
-                    63884,
-                    63890,
-                    63891
-                ],
-                "dc_min_qty": 1,
-                "dc_max_qty": 7,
-                "type_discount": "percent",
-                "discount": 25
-            },
-            {
-                "id": 3195,
-                "discount_program": [
-                    75,
-                    "CTKM NHA KHOA"
-                ],
-                "type_product": "product",
-                "product_ids": [
-                    63880,
-                    63881,
-                    63882,
-                    63884,
-                    63890,
-                    63891
-                ],
-                "dc_min_qty": 8,
-                "dc_max_qty": 15,
-                "type_discount": "percent",
-                "discount": 30
-            },
-            {
-                "id": 3196,
-                "discount_program": [
-                    75,
-                    "CTKM NHA KHOA"
-                ],
-                "type_product": "product",
-                "product_ids": [
-                    63880,
-                    63881,
-                    63882,
-                    63884,
-                    63890
-                ],
-                "dc_min_qty": 16,
-                "dc_max_qty": 99,
-                "type_discount": "percent",
-                "discount": 35
-            },
-            {
-                "id": 3197,
-                "discount_program": [
-                    75,
-                    "CTKM NHA KHOA"
-                ],
-                "type_product": "product",
-                "product_ids": [
-                    63886,
-                    63887,
-                    63888
-                ],
-                "dc_min_qty": 1,
-                "dc_max_qty": 99,
-                "type_discount": "percent",
-                "discount": 45
-            },
-            {
-                "id": 3198,
-                "discount_program": [
-                    75,
-                    "CTKM NHA KHOA"
-                ],
-                "type_product": "product",
-                "product_ids": [
-                    63989
-                ],
-                "dc_min_qty": 1,
-                "dc_max_qty": 1,
-                "type_discount": "percent",
-                "discount": 0
-            }
-        ]
-    }
+        {
+            "id": 63,
+            "code": "CTKM_KN_ALL_20217_1",
+            "name": "CTKM Tháng 7",
+            "campaign": [
+                {
+                    "id": 32,
+                    "name": "Test CTKM"
+                }
+            ],
+            "brand": [
+                {
+                    "id": 1,
+                    "name": "Kangnam"
+                }
+            ],
+            "company": []
+        },
+        {
+            "id": 64,
+            "code": "CTKM_KN_ALL_20217_2",
+            "name": "KN - ĐẸP CHẤT HÀN QUỐC",
+            "campaign": [
+                {
+                    "id": 21,
+                    "name": "Tháng triển khai CRM"
+                }
+            ],
+            "brand": [
+                {
+                    "id": 1,
+                    "name": "Kangnam"
+                }
+            ],
+            "company": []
+        },
+        {
+            "id": 65,
+            "code": "CTKM_KN_ALL_20217_4",
+            "name": "CTKM Test 001",
+            "campaign": [
+                {
+                    "id": 21,
+                    "name": "Tháng triển khai CRM"
+                }
+            ],
+            "brand": [
+                {
+                    "id": 1,
+                    "name": "Kangnam"
+                }
+            ],
+            "company": []
+        },
+        {
+            "id": 67,
+            "code": "CTKM_KN_ALL_20217_4",
+            "name": "CTKM ĐẸP CHẤT HÀN QUỐC LẦN 4",
+            "campaign": [
+                {
+                    "id": 32,
+                    "name": "Test CTKM"
+                }
+            ],
+            "brand": [
+                {
+                    "id": 1,
+                    "name": "Kangnam"
+                }
+            ],
+            "company": []
+        }
+    ]
+}
     ```
  
 * **Error Response:**

@@ -1,12 +1,11 @@
 
 ***1.4 Chương trình khuyến mại***
-<br/>
-Lấy danh sách chương trình khuyến mại theo thương hiệu và chi nhánh.
+
 ----
 
 * **URL**
     /{domain}/api/v1/promotion
-  
+  ***Lấy danh sách chương trình khuyến mại theo thương hiệu và chi nhánh.***
 * **Method:**
 
     `GET`

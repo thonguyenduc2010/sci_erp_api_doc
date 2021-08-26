@@ -22,8 +22,8 @@ Lấy danh sách chương trình khuyến mại theo thương hiệu và chi nh�
  
   * **Code:** 200 <br />
     **Content:** 
-  ```
- {
+```
+{
     "error": 0,
     "message": "Success",
     "count": 4,
@@ -101,7 +101,7 @@ Lấy danh sách chương trình khuyến mại theo thương hiệu và chi nh�
             "company": []
         }
     ]
- }
+}
 ```
  
 * **Error Response:**

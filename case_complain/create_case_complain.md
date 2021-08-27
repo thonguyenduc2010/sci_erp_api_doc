@@ -36,7 +36,7 @@
   | complain_group_id| integer  | Nhóm khiếu nại | x  | Danh sách nhóm khiếu nại  _model:crm.complain.group_ |
   | complain_id| integer  | Nội dung khiếu nại | x  | Danh sách khiếu nại  _model:crm.complain_ |
   |department_ids| integer  | Phòng ban | x  | Danh sách phòng ban  _model:hr.employee_ |
-  | stage| integer  | Người tiếp nhận | x  | 1: New, 2: Processing, 3:Finding more Information, 4:Waiting response, 5:Need to track, 6:Resolved, 7:Complete  |
+  | stage| integer  | Trạng thái | x  | 1: New, 2: Processing, 3:Finding more Information, 4:Waiting response, 5:Need to track, 6:Resolved, 7:Complete  |
   | product_ids| integer  | Dịch vụ khiếu nại |   | Danh sách dịch vụ |
   | priority| integer  | Mức độ ưu tiên | x  | 1:Low, 2:Normal, 3:High, 4:Urgent |
   | desc| string  | Phản ánh khách hàng |   |  |

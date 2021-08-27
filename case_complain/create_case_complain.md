@@ -24,13 +24,12 @@
   | booking_id| integer  | Mã Booking |   |
   | phone_call_id| integer  | Mã PhoneCall |   |
   | user_id| id  | Người tiếp nhận | x  |   |
-  | brand_id| integer  | Thương hiệu | x  | Danh sách Thương hiệu |
   | company_id| integer  | Chi nhánh | x  | Danh sách Chi nhánh |
   | crm_content_complain| integer  | Chi tiết khiếu nại |   | List các nội dung: _Solution Params_ |
-  | create_by| integer  | Người tạo case | x  |  |
+  | email_us| integer  | Người tạo case | x  |  |
 
 
-  *Content Params*
+  *Solution Params*
   
   | Attribute  | Method  | Type  | Description  |  Required | Note |
   |---|---|---|---|---|---|

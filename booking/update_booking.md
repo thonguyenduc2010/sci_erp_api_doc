@@ -25,6 +25,7 @@
     | stage_id | True | Int | | Trạng thái |
     | brand_id | True | Int | | Thương hiệu |
     | company_id | True | Int | | Công ty |
+    | company_share_id | False | Int | | Công ty share Booking |
     | price_list_id | True | Int | | Bảng giá |
     | category_source_id | True | Int | | Nhóm nguồn |
     | source_id | True | Int | | Nguồn |

@@ -8,6 +8,14 @@
 **Method:**
   
   `GET`
+
+ **URL Params**
+  
+  | Attribute| Type  | Description  |  Required | Note |
+  |---|---|---|---|---|
+  | company_id | integer  | Chi nhánh |   | Danh sách chi nhánh  |
+  | payment_method | integer  | Phương thức thanh toán |   | 1:Tiền mặt, 2: Chuyển khoản, 3:Thanh toán nội bộ, 4:Quẹt thẻ qua POS, 5:Thanh toán qua ví điện tử  |
+
    
 
 **Phản hồi thành công:**

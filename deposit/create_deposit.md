@@ -14,6 +14,7 @@
   | Attribute| Type  | Description  |  Required | Note |
   |---|---|---|---|---|
   | booking_id| integer  | Booking | x  | Booking còn hiệu lực |
+  | phone | integer  | Điện thoại | x  | Số điện thoại khách hàng  |
   | partner_id | integer  | Khách hàng | x  | Lấy từ danh sách KH  |
   | company_id| integer  | Chi nhánh | x  | Lấy từ danh sách chi nhánh |
   | discount_program_id| integer  | Chương trình khuyến mại |   | Lấy từ danh sách Chương trình khuyến mại |

@@ -15,7 +15,10 @@
    /{domain}/api/v1/booking
     | Attribute  | Require  | Type  | Note | Description |
     |---|---|---|---| ---|
-    | phone | True  | String  | | Số điện thoại của khách hàng |
+    | partner_id | True  | Int  | | ID account của khách hàng|
+    | phone | True  | String  | | Số điện thoại 1 của khách hàng |
+    | phone2 | True  | String  | | Số điện thoại 2 của khách hàng |
+    | phone3 | True  | String  | | Số điện thoại 3 của khách hàng |
     | contact_name | True | String | | Tên liên hệ của khách hàng |
     | gender | True | String | 'male' - Nam; 'female' - Nữ; 'other' - Khác | Giới tính của khách hàng |
     | country_id | True | Int | | Quốc gia |
@@ -28,7 +31,6 @@
     | source_id | True | Int | | Nguồn |
     | campaign_id | True | Int | | Chiến dịch | 
     | crm_line_ids | True | Mảng | Mảng id các dịch vụ | Danh sách sản phẩm |
-    | mobile | False | String| | Di động |
     | birth_date | False | Date | %Y-%m-%d | Ngày sinh |
     | year_of_birth | False | String | | Năm sinh |
     | email_from | False | String | | Email |
@@ -91,28 +93,7 @@
         "amount_total": 220000000.0,
         "create_on": "23-08-2021 08:37:28",
         "booking_date": "23-08-2021 00:00:00",
-        "crm_line_ids": [
-            {
-                "id": 21515,
-                "service_id": 5562,
-                "service_name": "Combo Chỉnh hàm hô móm 2 hàm + Trượt cằm",
-                "quantity": 1,
-                "source_extend_id": 1,
-                "source_extend_name": "Search engine",
-                "total_before_discount": 150000000.0,
-                "total_after_discount": 0
-            },
-            {
-                "id": 21516,
-                "service_id": 2282,
-                "service_name": "Xóa hình xăm có sẹo  - Mức 10 (>700cm) (Giá tính trên hình)",
-                "quantity": 1,
-                "source_extend_id": 1,
-                "source_extend_name": "Search engine",
-                "total_before_discount": 70000000.0,
-                "total_after_discount": 0
-            }
-        ]
+        "crm_line_ids": [1,2,3]
     }
  
 * **Error Response:**

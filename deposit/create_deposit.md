@@ -15,7 +15,6 @@
   |---|---|---|---|---|
   | booking_id| integer  | Booking | x  | Booking còn hiệu lực |
   | partner_id | integer  | Khách hàng | x  | Lấy từ danh sách KH  |
-  | brand_id| integer  | Thương hiệu |  x | Lấy từ danh sách thương hiệu |
   | company_id| integer  | Chi nhánh | x  | Lấy từ danh sách chi nhánh |
   | discount_program_id| integer  | Chương trình khuyến mại |   | Lấy từ danh sách Chương trình khuyến mại |
   | date| date  | Ngày | x  | Định dạng _Y-M-D_ |

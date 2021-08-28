@@ -1,7 +1,8 @@
 
 *** 1.5 Danh bảng giá ***
 ----
-Trả về danh sách bảng giá thuộc thương hiệu (brand) mà token key gọi API
+Trả về danh sách bảng giá thuộc thương hiệu (brand) mà token key gọi API. 
+Các trường hợp không có thông tin về chi nhánh (company) là bảng giá áp dụng cho toàn bộ chi nhánh (company) thuộc thương hiệu (brand). Nếu có thông tin về company là áp dụng đích danh cho một chi nhánh thuộc thương hiệu đó.
 * **URL**
 
     `GET` Danh sách bảng giá: 

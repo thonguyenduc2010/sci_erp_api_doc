@@ -15,7 +15,7 @@
    /{domain}/api/v1/booking
     | Attribute  | Require  | Type  | Note | Description |
     |---|---|---|---| ---|
-   | account_id | True  | Int  | trong trường hợp là khách hàng mơi chưa có account thì trường này sẽ để trống và phải điền số điện thoại của khách hàng đó vào trường phone | ID account của khách hàng,|
+   | account_id | True  | Int  | trong trường hợp là khách hàng mơi chưa có account thì trường này sẽ để trống và phải điền số điện thoại của khách hàng đó vào trường phone | ID account của khách hàng bên ERP |
     | phone | True  | String  | sử dụng khi khách hàng chưa có account | Số điện thoại của khách hàng |
     | ticket_id | True | Int | | ID ticket |
     | agent_email | True | String | | Email agent |

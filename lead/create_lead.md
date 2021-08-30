@@ -35,7 +35,7 @@
     | category_source_id | True | Int | | Nhóm nguồn |
     | source_id | True | Int | | Nguồn |
     | campaign_id | True | Int | | Chiến dịch | 
-    | crm_line_ids | True | Mảng | [ <br/> { <br/> 'service_id': id, <br/> 'quantity': Int, <br/> 'source_extend_id': id, <br/> }, <br/> ] <br/> - service_id: Sản phẩm <br/>- quantity: Số lượng <br/>- source_extend_id: Nguồn mở rộng  | Danh sách sản phẩm |
+    | crm_line_ids | True | Mảng | Mảng id các dịch vụ | Danh sách sản phẩm |
     | mobile | False | String| | Di động |
     | birth_date | False | Date | %Y-%m-%d | Ngày sinh |
     | year_of_birth | False | String | | Năm sinh |
@@ -98,28 +98,7 @@
         "campaign_name": "sss",
         "amount_total": 220000000.0,
         "create_on": "23-08-2021 03:13:48",
-        "crm_line_ids": [
-            {
-                "id": 21511,
-                "service_id": 5562,
-                "service_name": "Combo Chỉnh hàm hô móm 2 hàm + Trượt cằm",
-                "quantity": 1,
-                "source_extend_id": 1,
-                "source_extend_name": "Search engine",
-                "total_before_discount": 150000000.0,
-                "total_after_discount": 0
-            },
-            {
-                "id": 21512,
-                "service_id": 2282,
-                "service_name": "Xóa hình xăm có sẹo  - Mức 10 (>700cm) (Giá tính trên hình)",
-                "quantity": 1,
-                "source_extend_id": 1,
-                "source_extend_name": "Search engine",
-                "total_before_discount": 70000000.0,
-                "total_after_discount": 0
-            }
-        ]
+         "crm_line_ids": [1,2,3]
     }
  
 * **Error Response:**

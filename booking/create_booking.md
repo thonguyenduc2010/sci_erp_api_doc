@@ -17,6 +17,8 @@
     |---|---|---|---| ---|
    | account_id | True  | Int  | trong trường hợp là khách hàng mơi chưa có account thì trường này sẽ để trống và phải điền số điện thoại của khách hàng đó vào trường phone | ID account của khách hàng bên ERP |
     | phone | True  | String  | sử dụng khi khách hàng chưa có account | Số điện thoại của khách hàng |
+    | phone_no2 | False  | String  | | Số điện thoại 2 của khách hàng |
+    | phone_no3 | False  | String  | | Số điện thoại 2 của khách hàng |
     | ticket_id | True | Int | | ID ticket |
     | agent_email | True | String | | Email agent |
     | user_id | True | Int | | người tạo |

@@ -15,7 +15,13 @@
    /{domain}/api/v1/lead
     | Attribute  | Require  | Type  | Note | Description |
     |---|---|---|---| ---|
-    | phone | True  | String  | | Số điện thoại của khách hàng |
+     | partner_id | True  | Int  | | ID account của khách hàng|
+    | phone_no | True  | String  | | Số điện thoại 1 của khách hàng |
+    | phone_no2 | True  | String  | | Số điện thoại 2 của khách hàng |
+    | phone_no3 | True  | String  | | Số điện thoại 3 của khách hàng |
+    | ticket_id | True | Int | | ID ticket |
+    | agent_email | True | String | | Email agent |
+    | user_id | True | Int | | người tạo |
     | contact_name | True | String | | Tên liên hệ của khách hàng |
     | gender | True | String | 'male' - Nam; 'female' - Nữ; 'other' - Khác | Giới tính của khách hàng |
     | country_id | True | Int | | Quốc gia |

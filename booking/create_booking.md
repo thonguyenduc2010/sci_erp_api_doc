@@ -35,7 +35,6 @@
     | campaign_id | True | Int | | Chiến dịch | 
     | crm_line_ids | True | Mảng | Mảng id các dịch vụ | Danh sách sản phẩm |
     | birth_date | False | Date | %Y-%m-%d | Ngày sinh |
-    | year_of_birth | False | String | | Năm sinh |
     | email_from | False | String | | Email |
     | facebook_acc | False | String | | Tài khoản facebook |
     | zalo_acc| False | String | | Tàik khoản Zalo |

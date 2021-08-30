@@ -19,6 +19,8 @@
     | Tham số  | Tính bắt buộc  | Kiểu dữ liệu  | Mô tả  |
     |---|---|---|---|
     | phone | yes  | string  | Số điện thoại của khách hàng  |
+    | phone_2 | no  | string  | Số điện thoại 2 của khách hàng  |
+    | phone_3 | no  | string  | Số điện thoại 3 của khách hàng  |
 
 
 * **Success Response:**

@@ -15,10 +15,8 @@
    /{domain}/api/v1/lead
     | Attribute  | Require  | Type  | Note | Description |
     |---|---|---|---| ---|
-     | partner_id | True  | Int  | | ID account của khách hàng|
-    | phone_no | True  | String  | | Số điện thoại 1 của khách hàng |
-    | phone_no2 | True  | String  | | Số điện thoại 2 của khách hàng |
-    | phone_no3 | True  | String  | | Số điện thoại 3 của khách hàng |
+    | account_id | True  | Int  | trong trường hợp là khách hàng mơi chưa có account thì trường này sẽ để trống và phải điền số điện thoại của khách hàng đó vào trường phone | ID account của khách hàng,|
+    | phone | True  | String  | sử dụng khi khách hàng chưa có account | Số điện thoại của khách hàng |
     | ticket_id | True | Int | | ID ticket |
     | agent_email | True | String | | Email agent |
     | user_id | True | Int | | người tạo |

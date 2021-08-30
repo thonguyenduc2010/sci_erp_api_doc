@@ -28,15 +28,12 @@
     | state_id | True | Int | | Tỉnh/ Thành phố |
     | district_id | False | Int | | Quận/ Huyện |
     | street | True | String | | Địa chỉ chi tiết của khách hàng |
-    | stage_id | True | Int | | Trạng thái |
-    | brand_id | True | Int | | Thương hiệu |
     | company_id | True | Int | | Công ty |
     | price_list_id | True | Int | | Bảng giá |
     | category_source_id | True | Int | | Nhóm nguồn |
     | source_id | True | Int | | Nguồn |
     | campaign_id | True | Int | | Chiến dịch | 
     | crm_line_ids | True | Mảng | Mảng id các dịch vụ | Danh sách sản phẩm |
-    | mobile | False | String| | Di động |
     | birth_date | False | Date | %Y-%m-%d | Ngày sinh |
     | year_of_birth | False | String | | Năm sinh |
     | email_from | False | String | | Email |

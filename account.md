@@ -61,6 +61,7 @@
                 "name": "Book-687598",
                 "stage": "Xác nhận",
                 "create_on": "2021-08-09 08:11:37",
+                "effect": "Chưa hiệu lực",
                 "link_detail": "https://scisoftware.xyz/web#id=818567&model=crm.lead&view_type=form&action=631&menu_id=430"
             },
             {
@@ -68,6 +69,7 @@
                 "name": "Book-687584",
                 "stage": "Out sold",
                 "create_on": "2021-08-09 01:34:53",
+                "effect": "Hiệu lực",
                 "link_detail": "https://scisoftware.xyz/web#id=818538&model=crm.lead&view_type=form&action=631&menu_id=430"
             },
             {
@@ -75,6 +77,7 @@
                 "name": "Book-687358",
                 "stage": "Xác nhận",
                 "create_on": "2021-07-15 08:20:54",
+                "effect": "Hiệu lực",
                 "link_detail": "https://scisoftware.xyz/web#id=818105&model=crm.lead&view_type=form&action=631&menu_id=430"
             },
             {
@@ -89,6 +92,7 @@
                 "name": "Book-687041",
                 "stage": "Xác nhận",
                 "create_on": "2021-06-19 01:55:54",
+                "effect": "Hết hiệu lực",
                 "link_detail": "https://scisoftware.xyz/web#id=817353&model=crm.lead&view_type=form&action=631&menu_id=430"
             },
             {
@@ -103,6 +107,7 @@
                 "name": "Book-687023",
                 "stage": "Thành công",
                 "create_on": "2021-06-17 10:09:30",
+                "effect": "Hiệu lực",
                 "link_detail": "https://scisoftware.xyz/web#id=817315&model=crm.lead&view_type=form&action=631&menu_id=430"
             },
             {
@@ -110,6 +115,7 @@
                 "name": "Book-687019",
                 "stage": "Thành công",
                 "create_on": "2021-06-17 03:03:42",
+                "effect": "Hiệu lực",
                 "link_detail": "https://scisoftware.xyz/web#id=817306&model=crm.lead&view_type=form&action=631&menu_id=430"
             },
             {
@@ -117,6 +123,7 @@
                 "name": "Book-687017",
                 "stage": "Thành công",
                 "create_on": "2021-06-17 02:34:13",
+                "effect": "Hiệu lực",
                 "link_detail": "https://scisoftware.xyz/web#id=817302&model=crm.lead&view_type=form&action=631&menu_id=430"
             },
             {
@@ -124,6 +131,7 @@
                 "name": "Book-687014",
                 "stage": "Chưa xác nhận",
                 "create_on": "2021-06-17 02:13:06",
+                "effect": "Hiệu lực",
                 "link_detail": "https://scisoftware.xyz/web#id=817296&model=crm.lead&view_type=form&action=631&menu_id=430"
             },
             {
@@ -131,6 +139,7 @@
                 "name": "Book-687009",
                 "stage": "Xác nhận",
                 "create_on": "2021-06-16 10:05:48",
+                "effect": "Hiệu lực",
                 "link_detail": "https://scisoftware.xyz/web#id=817286&model=crm.lead&view_type=form&action=631&menu_id=430"
             }
         ],
@@ -359,6 +368,7 @@
                 "name": "Book-687598",
                 "stage": "Xác nhận",
                 "create_on": "2021-08-09 08:11:37",
+                "effect": "Hiệu lực",
                 "link_detail": "https://scisoftware.xyz/web#id=818567&model=crm.lead&view_type=form&action=631&menu_id=430"
             },
             {
@@ -366,6 +376,7 @@
                 "name": "Book-687584",
                 "stage": "Out sold",
                 "create_on": "2021-08-09 01:34:53",
+                "effect": "Hiệu lực",
                 "link_detail": "https://scisoftware.xyz/web#id=818538&model=crm.lead&view_type=form&action=631&menu_id=430"
             },
             {
@@ -373,6 +384,7 @@
                 "name": "Book-687358",
                 "stage": "Xác nhận",
                 "create_on": "2021-07-15 08:20:54",
+                "effect": "Hiệu lực",
                 "link_detail": "https://scisoftware.xyz/web#id=818105&model=crm.lead&view_type=form&action=631&menu_id=430"
             },
             {
@@ -380,6 +392,7 @@
                 "name": "Book-687099",
                 "stage": "Thành công",
                 "create_on": "2021-06-23 02:59:14",
+                "effect": "Hiệu lực",
                 "link_detail": "https://scisoftware.xyz/web#id=817480&model=crm.lead&view_type=form&action=631&menu_id=430"
             },
             {
@@ -387,6 +400,7 @@
                 "name": "Book-687041",
                 "stage": "Xác nhận",
                 "create_on": "2021-06-19 01:55:54",
+                "effect": "Hiệu lực",
                 "link_detail": "https://scisoftware.xyz/web#id=817353&model=crm.lead&view_type=form&action=631&menu_id=430"
             },
             {
@@ -394,6 +408,7 @@
                 "name": "Book-687040",
                 "stage": "Thành công",
                 "create_on": "2021-06-19 01:36:15",
+                "effect": "Hiệu lực",
                 "link_detail": "https://scisoftware.xyz/web#id=817352&model=crm.lead&view_type=form&action=631&menu_id=430"
             },
             {
@@ -401,6 +416,7 @@
                 "name": "Book-687023",
                 "stage": "Thành công",
                 "create_on": "2021-06-17 10:09:30",
+                "effect": "Hiệu lực",
                 "link_detail": "https://scisoftware.xyz/web#id=817315&model=crm.lead&view_type=form&action=631&menu_id=430"
             },
             {
@@ -408,6 +424,7 @@
                 "name": "Book-687019",
                 "stage": "Thành công",
                 "create_on": "2021-06-17 03:03:42",
+                "effect": "Hiệu lực",
                 "link_detail": "https://scisoftware.xyz/web#id=817306&model=crm.lead&view_type=form&action=631&menu_id=430"
             },
             {
@@ -415,6 +432,7 @@
                 "name": "Book-687017",
                 "stage": "Thành công",
                 "create_on": "2021-06-17 02:34:13",
+                "effect": "Hiệu lực",
                 "link_detail": "https://scisoftware.xyz/web#id=817302&model=crm.lead&view_type=form&action=631&menu_id=430"
             },
             {
@@ -422,6 +440,7 @@
                 "name": "Book-687014",
                 "stage": "Chưa xác nhận",
                 "create_on": "2021-06-17 02:13:06",
+                "effect": "Hiệu lực",
                 "link_detail": "https://scisoftware.xyz/web#id=817296&model=crm.lead&view_type=form&action=631&menu_id=430"
             },
             {
@@ -429,6 +448,7 @@
                 "name": "Book-687009",
                 "stage": "Xác nhận",
                 "create_on": "2021-06-16 10:05:48",
+                "effect": "Hiệu lực",
                 "link_detail": "https://scisoftware.xyz/web#id=817286&model=crm.lead&view_type=form&action=631&menu_id=430"
             }
         ],

@@ -38,8 +38,8 @@
     | email_from | False | String | | Email |
     | facebook_acc | False | String | | Tài khoản facebook |
     | zalo_acc| False | String | | Tàik khoản Zalo |
-    | send_info_facebook | False | String | no' - Không; 'yes' - Có | Gửi thông tin Facebook |
-    | send_info_zalo | False | String | no' - Không; 'yes' - Có | Gửi thông tin Zalo |
+    | send_info_facebook | False | String | 'not_send' - Chưa gửi; 'sent' - Đã gửi | Gửi thông tin Facebook |
+    | send_info_zalo | False | String | 'no_acc' - Chưa có acc; 'not_response' - Đã gửi và chưa phản hồi; 'sent' - Đã phản hồi | Gửi thông tin Zalo |
     | overseas_vietnamese | False | String | 'no' - No; 'marketing' - Marketing - Overseas Vietnamese; 'branch' - Branch - Overseas Vietnamese | Việt kiều |
     | work_online | False | Stringg | 'no' - Không; 'yes' - Có | Làm việc online |
     | booking_date | True | Date | %Y-%m-%d | Ngày hẹn lịch |

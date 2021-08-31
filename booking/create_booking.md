@@ -56,17 +56,19 @@
     {
     "error": 0,
     "message": "Success",
+    "count": 39,
     "data": {
-        "id": 818637,
-        "name": "Book-687631",
-        "contact_name": "Nguyễn Văn A",
+        "id": 818801,
+        "link_booking_detail": "http://localhost:13000/web#id=818801&model=crm.lead&view_type=form&action=631&menu_id=430",
+        "name": "Book-687724",
+        "contact_name": "Sơn",
         "gender": "male",
         "pass_port": false,
-        "phone": "012345691111",
-        "mobile": "01234567890",
+        "phone": false,
+        "mobile": false,
         "birth_date": false,
         "year_of_birth": false,
-        "email_from": "test@gmail.com",
+        "email_from": "sondoan_026",
         "country_id": 1,
         "country_name": "Andorra",
         "state_id": 1,
@@ -76,10 +78,10 @@
         "street": false,
         "company_id": 2,
         "company_name": "BỆNH VIỆN KANGNAM HÀ NỘI",
-        "facebook_acc": "Nguyễn Văn A",
-        "send_info_facebook": false,
-        "zalo_acc": "0123456789",
-        "send_info_zalo": false,
+        "facebook_acc": "abc",
+        "send_info_facebook": "sent",
+        "zalo_acc": "1111",
+        "send_info_zalo": "sent",
         "brand_id": 1,
         "brand_name": "Kangnam",
         "price_list_id": 1,
@@ -92,10 +94,34 @@
         "shuttle_bus": "no",
         "campaign_id": 22,
         "campaign_name": "aaa",
-        "amount_total": 220000000.0,
-        "create_on": "23-08-2021 08:37:28",
-        "booking_date": "23-08-2021 00:00:00",
-        "crm_line_ids": [1,2,3]
+        "amount_total": 0.0,
+        "create_on": "2021-08-31T04:00:53",
+        "crm_line_ids": [
+            {
+                "id": 21724,
+                "service_id": 2046,
+                "service_name": "Giảm mỡ bụng toàn thể (Trên + Dưới + Eo) cân nặng từ 50-59 kg + Căng da mini (Sửa lại)",
+                "quantity": 1,
+                "source_extend_id": false,
+                "source_extend_name": false
+            },
+            {
+                "id": 21725,
+                "service_id": 2047,
+                "service_name": "Giảm mỡ bụng toàn thể (Trên + Dưới + Eo) cân nặng từ 60 - 70 kg + Căng da mini",
+                "quantity": 1,
+                "source_extend_id": false,
+                "source_extend_name": false
+            },
+            {
+                "id": 21726,
+                "service_id": 2048,
+                "service_name": "Giảm mỡ bụng toàn thể (Trên + Dưới + Eo) cân nặng từ 60 - 70 kg + Căng da mini (Sửa lại)",
+                "quantity": 1,
+                "source_extend_id": false,
+                "source_extend_name": false
+            }
+        ]
     }
  
 * **Error Response:**

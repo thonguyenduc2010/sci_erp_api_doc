@@ -62,7 +62,8 @@
                 "stage": "Xác nhận",
                 "create_on": "2021-08-09 08:11:37",
                 "effect": "Chưa hiệu lực",
-                "link_detail": "https://scisoftware.xyz/web#id=818567&model=crm.lead&view_type=form&action=631&menu_id=430"
+                "link_detail": "https://scisoftware.xyz/web#id=818567&model=crm.lead&view_type=form&action=631&menu_id=430",
+                "company_id": 2
             },
             {
                 "id": 818538,
@@ -70,7 +71,8 @@
                 "stage": "Out sold",
                 "create_on": "2021-08-09 01:34:53",
                 "effect": "Hiệu lực",
-                "link_detail": "https://scisoftware.xyz/web#id=818538&model=crm.lead&view_type=form&action=631&menu_id=430"
+                "link_detail": "https://scisoftware.xyz/web#id=818538&model=crm.lead&view_type=form&action=631&menu_id=430",
+                "company_id": 2
             },
             {
                 "id": 818105,

@@ -23,8 +23,8 @@
     | company_id | True | Int | Sử dụng API lấy danh sách cơ sở | Cơ sở |
     | country_id | False | Int | | Quốc gia |
     | state_id | False | Int | | Tỉnh/ Thành phố |
-    | street | True | String | | Địa chỉ chi tiết của khách hàng |
-    | booking_date | True | Date | %Y-%m-%d | Ngày hẹn lịch |
+    | street | False | String | | Địa chỉ chi tiết của khách hàng |
+    | booking_date | False | Date | %Y-%m-%d | Ngày hẹn lịch |
 * **Success Response:**
   
   * **Code:** 200 <br />

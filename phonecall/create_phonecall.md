@@ -5,7 +5,7 @@
 
 * **URL**
 
-  /{domain}/api/v1/phonecall
+  /{domain}/api/v1/phone-call
 
 * **Method:**
   
@@ -13,10 +13,11 @@
   
 *  **URL Params**
 
-   /{domain}/api/v1/lead
     | Attribute  | Require  | Type  | Note | Description |
     |---|---|---|---| ---|
     | phone | True  | String  | | Số điện thoại của khách hàng |
+    | type_phonecall | True | Int | Sử dụng API lấy danh sách loại phone call | Loại phone call |
+    | direction | True | Stirng | 'in' - Gọi vào; 'out' - Gọi ra | Hướng gọi |
 
 
 * **Success Response:**

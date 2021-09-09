@@ -29,15 +29,16 @@
   
   * **Code:** 200 <br />
     **Content:** ```
-    {
+```buildoutcfg 
+{
     "error": 0,
     "message": "Success",
     "data": {
         "id_phonecall": 14464,
         "link_phonecall_detail": "http://localhost:13000/web#id=14464&model=crm.phone.call&view_type=form&action=713&menu_id=511"
-            }
     }
-```
+}
+}
  
 * **Error Response:**
 

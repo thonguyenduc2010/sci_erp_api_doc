@@ -25,6 +25,8 @@
     | state_id | False | Int | | Tỉnh/ Thành phố |
     | street | False | String | | Địa chỉ chi tiết của khách hàng |
     | booking_date | False | Date | %Y-%m-%d | Ngày hẹn lịch |
+    | call_date | True | Date | %Y-%m-%d | Ngày gọi |
+    | desc | False | String | | Mô tả |
 * **Success Response:**
   
   * **Code:** 200 <br />

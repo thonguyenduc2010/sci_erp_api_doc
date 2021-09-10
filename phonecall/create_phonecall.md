@@ -15,13 +15,14 @@
 
     | Attribute  | Require  | Type  | Note | Description |
     |---|---|---|---| ---|
+    | ticket_id | True | Int | | ID ticket |
     | phone | True  | String  | | Số điện thoại của khách hàng |
-    | type_phonecall | True | Int | Sử dụng API lấy danh sách loại phone call | Loại phone call |
+    | type_phonecall | True | Int | Sử dụng API lấy danh sách loại phone call 5.2 | Loại phone call |
     | direction | True | Stirng | 'in' - Gọi vào; 'out' - Gọi ra | Hướng gọi |
     | contact_name | True | String | | Tên liên hệ |
     | account_id | False | Int | | ID account khách hàng( trên ERP) |
     | stage_id | True | String | Sử dụng API lấy danh sách trạng thái 1.11 | Trạng thái |
-    | company_id | True | Int | Sử dụng API lấy danh sách cơ sở | Cơ sở |
+    | company_id | True | Int | Sử dụng API lấy danh sách cơ sở 1.2 | Cơ sở |
     | country_id | False | Int | | Quốc gia |
     | state_id | False | Int | | Tỉnh/ Thành phố |
     | street | False | String | | Địa chỉ chi tiết của khách hàng |

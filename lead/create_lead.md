@@ -15,8 +15,10 @@
    /{domain}/api/v1/lead
     | Attribute  | Require  | Type  | Note | Description |
     |---|---|---|---| ---|
-    | account_id | True  | Int  | trong trường hợp là khách hàng mơi chưa có account thì trường này sẽ để trống và phải điền số điện thoại của khách hàng đó vào trường phone | ID account của khách hàng,|
-    | phone | True  | String  | sử dụng khi khách hàng chưa có account | Số điện thoại của khách hàng |
+   | account_id | True  | Int  | trong trường hợp là khách hàng mơi chưa có account thì trường này sẽ để trống và phải điền số điện thoại của khách hàng đó vào trường phone | ID account của khách hàng bên ERP |
+    | phone_no1 | True  | String  | sử dụng khi khách hàng chưa có account | Số điện thoại của khách hàng |
+    | phone_no2 | False  | String  | | Số điện thoại 2 của khách hàng |
+    | phone_no3 | False  | String  | | Số điện thoại 2 của khách hàng |
     | ticket_id | True | Int | | ID ticket |
     | agent_email | True | String | | Email agent |
     | user_id | True | Int | | người tạo |
@@ -33,14 +35,14 @@
     | campaign_id | True | Int | | Chiến dịch | 
     | crm_line_ids | True | Mảng | Mảng id các dịch vụ | Danh sách sản phẩm |
     | birth_date | False | Date | %Y-%m-%d | Ngày sinh |
-    | year_of_birth | False | String | | Năm sinh |
     | email_from | False | String | | Email |
     | facebook_acc | False | String | | Tài khoản facebook |
     | zalo_acc| False | String | | Tàik khoản Zalo |
-    | send_info_facebook | False | String | no' - Không; 'yes' - Có | Gửi thông tin Facebook |
-    | send_info_zalo | False | String | no' - Không; 'yes' - Có | Gửi thông tin Zalo |
+    | send_info_facebook | False | String | 'not_send' - Chưa gửi; 'sent' - Đã gửi | Gửi thông tin Facebook |
+    | send_info_zalo | False | String | 'no_acc' - Chưa có acc; 'not_response' - Đã gửi và chưa phản hồi; 'sent' - Đã phản hồi | Gửi thông tin Zalo |
     | overseas_vietnamese | False | String | 'no' - No; 'marketing' - Marketing - Overseas Vietnamese; 'branch' - Branch - Overseas Vietnamese | Việt kiều |
-    | work_online | False | String | 'no' - Không; 'yes' - Có | Làm việc online |
+    | work_online | False | Stringg | 'no' - Không; 'yes' - Có | Làm việc online |
+    | booking_date | True | Date | %Y-%m-%d | Ngày hẹn lịch |
     | online_counseling | False | String | 'no' - Không; 'yes' - Có | Tư vấn trực tuyến |
     | shuttle_bus | False | String | 'no' - Không; 'yes' - Có | Xe đưa đón |
     |   |   |   |   |   |

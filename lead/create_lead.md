@@ -44,6 +44,7 @@
     | work_online | False | Stringg | 'no' - Không; 'yes' - Có | Làm việc online |
     | online_counseling | False | String | 'no' - Không; 'yes' - Có | Tư vấn trực tuyến |
     | shuttle_bus | False | String | 'no' - Không; 'yes' - Có | Xe đưa đón |
+    | customer_portrait | False | | Chân dung khách hàng |
     |   |   |   |   |   |
 
 * **Success Response:**

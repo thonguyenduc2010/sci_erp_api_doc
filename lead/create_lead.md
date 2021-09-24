@@ -49,7 +49,20 @@
     ** customer_portrait
     | Attribute | Type  | Note | Description |
     |---|---|---| ---|
-    | revenue_source | String | | Tài chính/ Thu nhập | 
+    | revenue_source | String | | Tài chính/ Thu nhập |
+    | term_goals | String | | Mục tiêu |
+    |social_influence | String | | Ảnh hưởng xã hội |
+    | behavior_on_the_internet | String | | Hành vi trên Internet |
+    | affected_by | String | ('family', 'Family'), ('friend', 'Friend'), ('co_worker', 'Co-Worker'), ('community', 'Community'),
+         ('electronic_media', 'Electronic media'), ('other', 'Other') | Bị tác động bởi |
+    | work_start_time | Float | | Giờ bắt đầu làm việc |
+    | work_end_time | Float | | Giờ kết thúc làm việc |
+    | break_start_time | Float | | Giờ bắt đầu nghỉ trưa |
+    | break_end_time | Float | | Giờ kết thúc nghỉ trưa |
+    | transport | String | ('bicycle', 'Bicycle'), ('scooter', 'Scooter'), ('bus', 'Bus'), ('car', 'Car'), ('other', 'Other') | Phương thức di chuyển |
+    | pain_point | Mảng | VD: ['điểm đau 1', 'điểm đau 2'] | Điểm đau |
+    | desires | Mảng | VD: ['mong muốn 1', 'mong muốn 2'] | Điểm đau |
+    | hobby | Mảng | Sử dunng API lấy danh sách sở thích. VD: [2,4] | Sở thích |
     
 
 * **Success Response:**

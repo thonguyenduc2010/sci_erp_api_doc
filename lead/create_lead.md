@@ -45,6 +45,12 @@
     | online_counseling | False | String | 'no' - Không; 'yes' - Có | Tư vấn trực tuyến |
     | shuttle_bus | False | String | 'no' - Không; 'yes' - Có | Xe đưa đón |
     | customer_portrait | False | | | Chân dung khách hàng |
+    
+    ** customer_portrait
+    | Attribute | Type  | Note | Description |
+    |---|---|---| ---|
+    | revenue_source | String | | Tài chính/ Thu nhập | 
+    
 
 * **Success Response:**
   

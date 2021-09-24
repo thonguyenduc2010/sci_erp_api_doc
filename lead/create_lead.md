@@ -53,8 +53,7 @@
     | term_goals | String | | Mục tiêu |
     |social_influence | String | | Ảnh hưởng xã hội |
     | behavior_on_the_internet | String | | Hành vi trên Internet |
-    | affected_by | String | ('family', 'Family'), ('friend', 'Friend'), ('co_worker', 'Co-Worker'), ('community', 'Community'),
-         ('electronic_media', 'Electronic media'), ('other', 'Other') | Bị tác động bởi |
+    | affected_by | String | ('family', 'Family'), ('friend', 'Friend'), ('co_worker', 'Co-Worker'), ('community', 'Community'), ('electronic_media', 'Electronic media'), ('other', 'Other') | Bị tác động bởi |
     | work_start_time | Float | | Giờ bắt đầu làm việc |
     | work_end_time | Float | | Giờ kết thúc làm việc |
     | break_start_time | Float | | Giờ bắt đầu nghỉ trưa |

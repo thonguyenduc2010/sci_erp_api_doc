@@ -75,45 +75,30 @@
     "error": 0,
     "message": "Success",
     "data": {
-        "id": 818635,
-        "name": "Nguyễn Văn A",
-        "contact_name": "Nguyễn Văn A",
-        "gender": "male",
-        "pass_port": false,
-        "phone": "0123456789",
-        "mobile": "0123456789",
-        "birth_date": "1999-06-02",
-        "year_of_birth": "1999",
-        "email_from": "sondoan026@gmail.com",
-        "country_id": 1,
-        "country_name": "Andorra",
-        "state_id": 7,
-        "state_name": "Victoria",
-        "district_id": false,
-        "district_name": false,
-        "street": "11 Tô Vĩnh Diện",
-        "company_id": 2,
-        "company_name": "BỆNH VIỆN KANGNAM HÀ NỘI",
-        "facebook_acc": "Nguyễn Văn A",
-        "send_info_facebook": false,
-        "zalo_acc": "0123456789",
-        "send_info_zalo": false,
-        "brand_id": 1,
-        "brand_name": "Kangnam",
-        "price_list_id": 1,
-        "price_list_name": "Bảng giá niêm yết Kangnam 2021",
-        "category_source_id": 1,
-        "category_source_name": "MARKETING",
-        "overseas_vietnamese": "no",
-        "work_online": "no",
-        "online_counseling": "no",
-        "shuttle_bus": "no",
-        "campaign_id": 21,
-        "campaign_name": "sss",
-        "amount_total": 220000000.0,
-        "create_on": "23-08-2021 03:13:48",
-         "crm_line_ids": [1,2,3]
+        "id_booking": 593001,
+        "link_lead_detail": "http://localhost:13000/web#id=593001&model=crm.lead&view_type=form&action=630&menu_id=430",
+        "customer_portrait": {
+            "revenue_source": null,
+            "term_goals": "",
+            "social_influence": "",
+            "behavior_on_the_internet": "",
+            "affected_by": "",
+            "work_start_time": "",
+            "work_end_time": "",
+            "break_start_time": "",
+            "break_end_time": "",
+            "transport": "",
+            "pain_point": [
+                "point 1",
+                "point 2"
+            ],
+            "desires": [
+                "desires 1",
+                "desires 2"
+            ]
+        }
     }
+}
  
 * **Error Response:**
 

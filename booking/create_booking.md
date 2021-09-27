@@ -45,7 +45,24 @@
     | booking_date | True | Date | %Y-%m-%d | Ngày hẹn lịch |
     | online_counseling | False | String | 'no' - Không; 'yes' - Có | Tư vấn trực tuyến |
     | shuttle_bus | False | String | 'no' - Không; 'yes' - Có | Xe đưa đón |
-    |   |   |   |   |   |
+    | customer_portrait | False | | | Chân dung khách hàng |
+    
+    ** customer_portrait
+    | Attribute | Type  | Note | Description |
+    |---|---|---| ---|
+    | revenue_source | String | | Tài chính/ Thu nhập |
+    | term_goals | String | | Mục tiêu |
+    |social_influence | String | | Ảnh hưởng xã hội |
+    | behavior_on_the_internet | String | | Hành vi trên Internet |
+    | affected_by | String | ('family', 'Family'), ('friend', 'Friend'), ('co_worker', 'Co-Worker'), ('community', 'Community'), ('electronic_media', 'Electronic media'), ('other', 'Other') | Bị tác động bởi |
+    | work_start_time | Float | | Giờ bắt đầu làm việc |
+    | work_end_time | Float | | Giờ kết thúc làm việc |
+    | break_start_time | Float | | Giờ bắt đầu nghỉ trưa |
+    | break_end_time | Float | | Giờ kết thúc nghỉ trưa |
+    | transport | String | ('bicycle', 'Bicycle'), ('scooter', 'Scooter'), ('bus', 'Bus'), ('car', 'Car'), ('other', 'Other') | Phương thức di chuyển |
+    | pain_point | Mảng | VD: ['điểm đau 1', 'điểm đau 2'] | Điểm đau |
+    | desires | Mảng | VD: ['mong muốn 1', 'mong muốn 2'] | Điểm đau |
+    | hobby | Mảng | Sử dunng API lấy danh sách sở thích. VD: [2,4] | Sở thích |
     
     
 * **Success Response:**
@@ -53,76 +70,35 @@
   * **Code:** 200 <br />
     **Content:**
      ```buildoutcfg 
-    {
+{
     "error": 0,
     "message": "Success",
-    "count": 39,
     "data": {
-        "id": 818801,
-        "link_booking_detail": "http://localhost:13000/web#id=818801&model=crm.lead&view_type=form&action=631&menu_id=430",
-        "name": "Book-687724",
-        "contact_name": "Sơn",
-        "gender": "male",
-        "pass_port": false,
-        "phone": false,
-        "mobile": false,
-        "birth_date": false,
-        "year_of_birth": false,
-        "email_from": "sondoan_026",
-        "country_id": 1,
-        "country_name": "Andorra",
-        "state_id": 1,
-        "state_name": "Australian Capital Territory",
-        "district_id": false,
-        "district_name": false,
-        "street": false,
-        "company_id": 2,
-        "company_name": "BỆNH VIỆN KANGNAM HÀ NỘI",
-        "facebook_acc": "abc",
-        "send_info_facebook": "sent",
-        "zalo_acc": "1111",
-        "send_info_zalo": "sent",
-        "brand_id": 1,
-        "brand_name": "Kangnam",
-        "price_list_id": 1,
-        "price_list_name": "Bảng giá niêm yết Kangnam 2021",
-        "category_source_id": 1,
-        "category_source_name": "MARKETING",
-        "overseas_vietnamese": "no",
-        "work_online": "no",
-        "online_counseling": "no",
-        "shuttle_bus": "no",
-        "campaign_id": 22,
-        "campaign_name": "aaa",
-        "amount_total": 0.0,
-        "create_on": "2021-08-31T04:00:53",
-        "crm_line_ids": [
-            {
-                "id": 21724,
-                "service_id": 2046,
-                "service_name": "Giảm mỡ bụng toàn thể (Trên + Dưới + Eo) cân nặng từ 50-59 kg + Căng da mini (Sửa lại)",
-                "quantity": 1,
-                "source_extend_id": false,
-                "source_extend_name": false
-            },
-            {
-                "id": 21725,
-                "service_id": 2047,
-                "service_name": "Giảm mỡ bụng toàn thể (Trên + Dưới + Eo) cân nặng từ 60 - 70 kg + Căng da mini",
-                "quantity": 1,
-                "source_extend_id": false,
-                "source_extend_name": false
-            },
-            {
-                "id": 21726,
-                "service_id": 2048,
-                "service_name": "Giảm mỡ bụng toàn thể (Trên + Dưới + Eo) cân nặng từ 60 - 70 kg + Căng da mini (Sửa lại)",
-                "quantity": 1,
-                "source_extend_id": false,
-                "source_extend_name": false
-            }
-        ]
+        "account_id": 412063,
+        "customer_portrait": {
+            "revenue_source": null,
+            "term_goals": "test",
+            "social_influence": null,
+            "behavior_on_the_internet": "test",
+            "affected_by": "family",
+            "work_start_time": 2.0,
+            "work_end_time": 2.0,
+            "break_start_time": 2.0,
+            "break_end_time": 2.0,
+            "transport": "bicycle",
+            "pain_point": [
+                "point 1",
+                "point 2",
+            ],
+            "desires": [
+                "desires 1",
+                "desires 2",
+            ]
+        },
+        "id_booking": 593028,
+        "link_booking_detail": "http://localhost:13000/web#id=593028&model=crm.lead&view_type=form&action=633&menu_id=430"
     }
+}
  
 * **Error Response:**
     - Đối với khách hàng có Booking còn hiệu lực thì không được phép tạo mới Booking cho khách hàng đó và phải vào Booking vẫn còn hiệu lực đó để thao tác tiếp

@@ -70,35 +70,35 @@
   * **Code:** 200 <br />
     **Content:**
      ```buildoutcfg 
-{
-    "error": 0,
-    "message": "Success",
-    "data": {
-        "account_id": 412063,
-        "customer_portrait": {
-            "revenue_source": null,
-            "term_goals": "test",
-            "social_influence": null,
-            "behavior_on_the_internet": "test",
-            "affected_by": "family",
-            "work_start_time": 2.0,
-            "work_end_time": 2.0,
-            "break_start_time": 2.0,
-            "break_end_time": 2.0,
-            "transport": "bicycle",
-            "pain_point": [
-                "point 1",
-                "point 2",
-            ],
-            "desires": [
-                "desires 1",
-                "desires 2",
-            ]
-        },
-        "id_booking": 593028,
-        "link_booking_detail": "http://localhost:13000/web#id=593028&model=crm.lead&view_type=form&action=633&menu_id=430"
-    }
-}
+     {
+         "error": 0,
+         "message": "Success",
+         "data": {
+             "account_id": 412063,
+             "customer_portrait": {
+                 "revenue_source": null,
+                 "term_goals": "test",
+                 "social_influence": null,
+                 "behavior_on_the_internet": "test",
+                 "affected_by": "family",
+                 "work_start_time": 2.0,
+                 "work_end_time": 2.0,
+                 "break_start_time": 2.0,
+                 "break_end_time": 2.0,
+                 "transport": "bicycle",
+                 "pain_point": [
+                     "point 1",
+                     "point 2",
+                 ],
+                 "desires": [
+                     "desires 1",
+                     "desires 2",
+                 ]
+             },
+             "id_booking": 593028,
+             "link_booking_detail": "http://localhost:13000/web#id=593028&model=crm.lead&view_type=form&action=633&menu_id=430"
+         }
+     }
  
 * **Error Response:**
     - Đối với khách hàng có Booking còn hiệu lực thì không được phép tạo mới Booking cho khách hàng đó và phải vào Booking vẫn còn hiệu lực đó để thao tác tiếp

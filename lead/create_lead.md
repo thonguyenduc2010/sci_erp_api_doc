@@ -71,35 +71,38 @@
   * **Code:** 200 <br />
     **Content:** 
     ```buildoutcfg 
-     {
-      "error": 0,
-      "message": "Success",
-      "data": {
-          "customer_portrait": {
-              "revenue_source": null,
-              "term_goals": "test",
-              "social_influence": "test",
-              "behavior_on_the_internet": "test",
-              "affected_by": "family",
-              "work_start_time": 2.0,
-              "work_end_time": 2.0,
-              "break_start_time": 2.0,
-              "break_end_time": 2.0,
-              "transport": "bicycle",
-              "pain_point": [
-                  "point 1",
-                  "point 2"
-              ],
-              "desires": [
-                  "desires 1",
-                  "desires 2"
-              ]
-          },
-          "id_booking": 593030,
-          "link_lead_detail": "http://localhost:13000/web#id=593030&model=crm.lead&view_type=form&action=630&menu_id=430"
-      }
-  }
-}
+         {
+        "error": 0,
+        "message": "Success",
+        "data": {
+            "customer_portrait": {
+                "revenue_source": null,
+                "term_goals": "test",
+                "social_influence": "test",
+                "behavior_on_the_internet": "test",
+                "affected_by": "family",
+                "work_start_time": 2.0,
+                "work_end_time": 2.0,
+                "break_start_time": 2.0,
+                "break_end_time": 2.0,
+                "transport": "bicycle",
+                "hobby": [
+                    "âm nhạc",
+                    "xem phim"
+                ],
+                "pain_point": [
+                    "point 1",
+                    "point 2"
+                ],
+                "desires": [
+                    "desires 1",
+                    "desires 2"
+                ]
+            },
+            "id_booking": 594142,
+            "link_lead_detail": "http://localhost:13000/web#id=594142&model=crm.lead&view_type=form&action=630&menu_id=430"
+        }
+    }
  
 * **Error Response:**
 

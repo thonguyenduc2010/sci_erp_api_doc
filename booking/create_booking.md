@@ -62,7 +62,7 @@
     | transport | String | ('bicycle', 'Bicycle'), ('scooter', 'Scooter'), ('bus', 'Bus'), ('car', 'Car'), ('other', 'Other') | Phương thức di chuyển |
     | pain_point | Mảng | VD: ['điểm đau 1', 'điểm đau 2'] | Điểm đau |
     | desires | Mảng | VD: ['mong muốn 1', 'mong muốn 2'] | Điểm đau |
-    | hobby | Mảng | Sử dunng API lấy danh sách sở thích. VD: [2,4] | Sở thích |
+    | hobby | Mảng | VD: ['sở thích 1', 'sở thích 2'] | Sở thích |
     
     
 * **Success Response:**

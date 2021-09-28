@@ -99,7 +99,7 @@
                     "desires 2"
                 ]
             },
-            "id_booking": 594142,
+            "id_lead": 594142,
             "link_lead_detail": "http://localhost:13000/web#id=594142&model=crm.lead&view_type=form&action=630&menu_id=430"
         }
     }

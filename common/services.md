@@ -22,6 +22,7 @@ Trả về thông tin sản phẩm, dịch vụ của một bảng giá
   |---|---|---|
   | company_id | Integer  | ID cơ sở |
   | pricelist_id | Integer  | ID bảng giá |
+  | code | String | Mã dịch vụ |
 
 
 * **Phản hồi thành công:**

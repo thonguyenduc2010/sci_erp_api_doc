@@ -38,6 +38,7 @@ Trả về thông tin sản phẩm, dịch vụ của một bảng giá
                 "id": 65491,
                 "default_code": "DCPKCPK0003",
                 "name": "Cắt chỉ khách bên ngoài mức độ 3 (hàm, ngực, mông, tạo hình thành bụng..)",
+                "display_name": "[DCPKCPK0003] Cắt chỉ khách bên ngoài mức độ 3 (hàm, ngực, mông, tạo hình thành bụng..)",
                 "type": "service",
                 "company": [
                     {
@@ -89,6 +90,7 @@ Trả về thông tin sản phẩm, dịch vụ của một bảng giá
                 "id": 24,
                 "code": "TBH01",
                 "name": "Thể tích khối hồng cầu (hematocrit) bằng máy ly tâm",
+                "display_name": "[TBH01] Thể tích khối hồng cầu (hematocrit) bằng máy ly tâm",
                 "type": "service"
             }
         ]

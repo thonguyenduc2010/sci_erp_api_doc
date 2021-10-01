@@ -21,6 +21,7 @@ Các trường hợp không có thông tin về chi nhánh (company) là bảng 
   | Attribute| Type | Description |
   |---|---|---|
   | id | int  | ID bảng giá |
+  | code | String  | Mã dịch vụ |
 
 * **Phản hồi thành công:**
     * **Code:** 200 <br />

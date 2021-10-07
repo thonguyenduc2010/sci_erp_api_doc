@@ -4,7 +4,7 @@
 
 * **URL**
 
-   /{domain}/api/v1/account
+   /{domain}/api/v1/personal-information
 
 * **Method:**
   

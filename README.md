@@ -43,6 +43,7 @@ Header:
 ## 4. Account
   * [4.1. Lấy thông tin 1 khách hàng](https://github.com/thonguyenduc2010/sci_erp_api_doc/blob/main/account.md)
   * [4.2. Danh sách nhân sự](https://github.com/thonguyenduc2010/sci_erp_api_doc/blob/main/employee.md)
+  * [4.3. Lấy thông tin cá nhân c khách hàng](https://github.com/thonguyenduc2010/sci_erp_api_doc/blob/main/account/personal_information.md)
 ## 5. Phonecall
 ### [5.1. Tạo phonecall](https://github.com/thonguyenduc2010/sci_erp_api_doc/blob/main/phonecall/create_phonecall.md)
 ### [5.2. Danh sách type phone call](https://github.com/thonguyenduc2010/sci_erp_api_doc/blob/main/phonecall/type_phone_call.md)

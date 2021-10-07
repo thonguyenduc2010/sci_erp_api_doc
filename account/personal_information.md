@@ -12,7 +12,7 @@
   
 *  **URL Params**
 
-   /{domain}/api/v1/account?phone=091231212&phone_2=01232812123&phone_3=01232812123
+   /{domain}/api/v1/personal-information
 
    **Required:**
  

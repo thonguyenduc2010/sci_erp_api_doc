@@ -3,7 +3,7 @@
   Trả về thông tin phần thưởng thẻ khách hàng của khách hàng
 * **URL**
 
-   /{domain}/api/v1/cases
+   /{domain}/api/v1/loyalty
 
 * **Method:**
   
@@ -11,7 +11,7 @@
   
 *  **URL Params**
 
-   /{domain}/api/v1/cases
+   /{domain}/api/v1/loyalty
 
    **Required:**
  

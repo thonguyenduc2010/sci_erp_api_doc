@@ -49,7 +49,7 @@ Header:
   * [4.6. Lấy danh sách bản ghi Booking của khách hàng](https://github.com/thonguyenduc2010/sci_erp_api_doc/blob/main/account/bookings.md)
   * [4.7. Lấy danh sách bản ghi Phone Call của khách hàng](https://github.com/thonguyenduc2010/sci_erp_api_doc/blob/main/account/phone_call.md)
   * [4.8. Lấy danh sách bản ghi Phiếu khám của khách hàng](https://github.com/thonguyenduc2010/sci_erp_api_doc/blob/main/account/walkin.md)
-  * [4.9. Lấy thông tin thẻ thành viên của khách hàng](https://github.com/thonguyenduc2010/sci_erp_api_doc/edit/main/account/case.md)
+  * [4.9. Lấy thông tin thẻ thành viên của khách hàng](https://github.com/thonguyenduc2010/sci_erp_api_doc/blob/main/account/loyalty.md)
 ## 5. Phonecall
 ### [5.1. Tạo phonecall](https://github.com/thonguyenduc2010/sci_erp_api_doc/blob/main/phonecall/create_phonecall.md)
 ### [5.2. Danh sách type phone call](https://github.com/thonguyenduc2010/sci_erp_api_doc/blob/main/phonecall/type_phone_call.md)

@@ -28,6 +28,7 @@ Header:
   ### [1.11.Danh sách Trạng thái](https://github.com/thonguyenduc2010/sci_erp_api_doc/blob/main/common/stage.md)
   ### [1.12.Danh sách Nhóm nguồn](https://github.com/thonguyenduc2010/sci_erp_api_doc/blob/main/common/source_category.md)
   ### [1.13.Danh sách Nguồn](https://github.com/thonguyenduc2010/sci_erp_api_doc/blob/main/common/source.md)
+  ### [1.14.Danh sách Nhóm dịch vụ](https://github.com/thonguyenduc2010/sci_erp_api_doc/blob/main/common/service_categories.md)
   
 ## 2. Lead
 ### [2.1. Tạo lead](https://github.com/thonguyenduc2010/sci_erp_api_doc/blob/main/lead/create_lead.md)
